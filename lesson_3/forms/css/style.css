@@ -1,0 +1,41 @@
+.leveling {
+	font-weight: bold;
+}
+input, select, textarea {
+		margin: 5px;
+	    border-radius: 5px;
+}
+input {
+	    border-radius: 20px 10px;
+}
+.retreat_bottom {
+	margin-bottom: 20px;
+}
+.retreat_top {
+	margin-top: 20px;
+}
+.italic {
+	font-style: italic;
+}
+div {
+	background-image: url(http://wallpick-download.com/wp-content/uploads/2015/02/Silver-Background-09.png);
+	background-attachment: fixed;
+	display: block;
+	margin: 0 auto;
+	width: 70%;
+
+}
+p { 
+	margin:0;
+}
+body {
+	background-image: url(http://www.hdwuz.com/wp-content/uploads/2015/10/blue_background_636_awesome_picture.jpg)
+}
+fieldset {
+	border: 3px solid #0000CD;
+	padding: 15px;
+	margin: 15px;
+}
+h1 {
+	color: #0000CD
+}

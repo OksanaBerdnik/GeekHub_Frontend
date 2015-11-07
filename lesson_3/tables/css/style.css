@@ -1,0 +1,19 @@
+div {width: 70%;
+	display: block;
+	margin: 0 auto;
+	
+	}
+.tab{display: block;
+	 margin: 0 auto;
+	 width: 70%;
+	 }	
+.mar {margin-top: 20px;
+	 margin-bottom: 20px;
+	 }
+body {
+	background-image: url(http://friendsofiraq.verboencarnado.net/wp-content/uploads/2013/11/abstract-red-background-backgrounds-for-powerpoint-and-black-funny.jpg)
+}
+table {
+	border: 2px solid #B22222;
+	font-size: 110%;
+}
