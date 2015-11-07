@@ -1,6 +1,6 @@
-div {
+div.wrapper {
 	width:60%;
-	background-image: url(http://wallpick-download.com/wp-content/uploads/2015/02/White-Background-42.jpg); 
+	background-image: url(../images/1.jpg); 
 	display: block;  
 	margin: 0 auto;
 }
@@ -13,7 +13,7 @@ h1 {
 	text-align: center;
 	color:#0000CD;
 	padding: 30px;
-	font-size: 250%;
+	font-size: 30pt;
 	font-weight: bolder;
 }	
 a {
@@ -22,12 +22,12 @@ a {
 	margin-right: 10px;
 }
 body {
-	font-family:   font-family: Geneva, Arial, Helvetica, sans-serif;
-	background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRkb6alXCD3wS9LMN2r-Xua_3AFwTDmTYId9392MBcIxQ6n6swo);
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	background-image: url(../images/2.jpg);
 }
 p {
 	padding: 20px;
-	font-size: 130%;
+	font-size: 13pt;
 }
 span{
 	font-size: 15pt;

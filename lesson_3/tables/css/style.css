@@ -1,4 +1,4 @@
-div {width: 70%;
+div.wrapper {width: 70%;
 	display: block;
 	margin: 0 auto;
 	
@@ -11,9 +11,9 @@ div {width: 70%;
 	 margin-bottom: 20px;
 	 }
 body {
-	background-image: url(http://friendsofiraq.verboencarnado.net/wp-content/uploads/2013/11/abstract-red-background-backgrounds-for-powerpoint-and-black-funny.jpg)
+	background-image: url(../images/1.jpg)
 }
 table {
 	border: 2px solid #B22222;
-	font-size: 110%;
+	font-size: 17px;
 }

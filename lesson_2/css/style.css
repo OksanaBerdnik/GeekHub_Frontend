@@ -5,7 +5,7 @@
 span {
      text-decoration:underline;
 }
-.animal, div{
+.animal, div.wrapper{
     display:block;
     margin: 0 auto;
 }
@@ -19,9 +19,9 @@ span {
 .right {
 	text-align:right;
 }
-div {
+div.wrapper {
 	width:60%;
 }
 body {
-	background-image: url(http://www.freecreatives.com/wp-content/uploads/2015/03/6809725-simple-vintage-backgrounds.jpg);
+	background-image: url(../images/1.jpg);
 }

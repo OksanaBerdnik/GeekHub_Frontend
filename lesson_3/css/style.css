@@ -1,7 +1,7 @@
 body {
-	background-image: url(http://distinctionjewelry.com/info/wp-content/uploads/2013/01/blurred-background-5-2000x1250.jpg)
+	background-image: url(../../images/1.jpg)
 }
-div {
+div.wrapper {
 	display: block;
 	margin:0 auto;
 	width:50%;
@@ -9,7 +9,7 @@ div {
 }
  li {
 	text-align: center;
-	font-size: 150%;
+	font-size: 18pt;
 	color: black;
 	font-weight: bold;
 }
@@ -18,7 +18,7 @@ a {
 	padding: 10px 60px;
 	text-decoration: none;
 	color: black;
-	border: ridge 2px black;
+	border: 2px ridge  black;
 	border-radius: 5px;
 	margin: 15px 0 0 0;
 }

@@ -17,8 +17,8 @@ input {
 .italic {
 	font-style: italic;
 }
-div {
-	background-image: url(http://wallpick-download.com/wp-content/uploads/2015/02/Silver-Background-09.png);
+div.wrapper {
+	background-image: url(../images/1.png);
 	background-attachment: fixed;
 	display: block;
 	margin: 0 auto;
@@ -29,7 +29,7 @@ p {
 	margin:0;
 }
 body {
-	background-image: url(http://www.hdwuz.com/wp-content/uploads/2015/10/blue_background_636_awesome_picture.jpg)
+	background-image: url(../images/2.jpg)
 }
 fieldset {
 	border: 3px solid #0000CD;
@@ -37,5 +37,5 @@ fieldset {
 	margin: 15px;
 }
 h1 {
-	color: #0000CD
+	color: #0000CD;
 }
