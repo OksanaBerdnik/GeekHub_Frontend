@@ -1,0 +1,27 @@
+﻿.p2 {
+    font-style:italic;
+    font-weight:normal;
+}
+span {
+     text-decoration:underline;
+}
+.animal, div{
+    display:block;
+    margin: 0 auto;
+}
+ .leftimg {
+    float:left;
+    margin: 7px 7px 7px 0;
+ }
+.position {
+    text-align:center;
+}
+.right {
+	text-align:right;
+}
+div {
+	width:60%;
+}
+body {
+	background-image: url(http://www.freecreatives.com/wp-content/uploads/2015/03/6809725-simple-vintage-backgrounds.jpg);
+}
