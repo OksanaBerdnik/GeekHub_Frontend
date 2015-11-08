@@ -1,3 +1,11 @@
+div.wrapper {
+	background-image: url(../images/2.jpg);
+}
+div.child {
+	background-image: url(../images/1.png);
+	margin: 0 auto;
+	width: 70%;
+}
 .leveling {
 	font-weight: bold;
 }
@@ -17,18 +25,11 @@ input {
 .italic {
 	font-style: italic;
 }
-div.child {
-	background-image: url(../images/2.png);
-	margin: 0 auto;
-	width: 70%;
 
-}
 p { 
 	margin:0;
 }
-div.wrapper {
-	background-image: url(../images/1.jpg)
-}
+
 fieldset {
 	border: 3px solid #0000CD;
 	padding: 15px;
