@@ -1,6 +1,7 @@
 ﻿.p2 {
     font-style:italic;
     font-weight:normal;
+	font-size: large;
 }
 span.line {
      text-decoration:underline;
@@ -12,8 +13,8 @@ p.animal {
     float:left;
     margin: 7px 7px 7px 0;
  }
-.position {
-    text-align:center;
+.position, .p2 {
+    text-align:center;	
 }
 .right {
 	text-align:right;
@@ -25,7 +26,7 @@ div.child {
 	width:60%;
 	margin: 0 auto;
 }
-span.bold {
+.bold {
 	font-weight: bolder;
 }
 span.italic {
