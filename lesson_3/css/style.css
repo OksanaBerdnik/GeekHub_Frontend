@@ -1,11 +1,11 @@
-body {
-	background-image: url(../../images/1.jpg)
+div.wrapper{
+	background-image: url(../images/1.jpg);	
 }
-div.wrapper {
-	display: block;
-	margin:0 auto;
+div.child {
 	width:50%;
-	margin-top: 100px;
+	margin: 0 auto;
+	padding-top:100px;
+	height: 1000px;]
 }
  li {
 	text-align: center;

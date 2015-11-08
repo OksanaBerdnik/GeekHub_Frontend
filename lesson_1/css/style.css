@@ -1,13 +1,14 @@
 div.wrapper {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	background-image: url(../images/2.jpg);	
+}
+div.child {
 	width:60%;
-	background-image: url(../images/1.jpg); 
-	display: block;  
+	background-image: url(../images/1.jpg);  
 	margin: 0 auto;
 }
-img	{
-	display: block;  
-	margin: 0 auto;
-	
+p.align {
+	text-align: center;
 }
 h1 {
 	text-align: center;
@@ -20,10 +21,6 @@ a {
 	text-decoration:none;
 	margin-left: 10px;
 	margin-right: 10px;
-}
-body {
-	font-family: Geneva, Arial, Helvetica, sans-serif;
-	background-image: url(../images/2.jpg);
 }
 p {
 	padding: 20px;
