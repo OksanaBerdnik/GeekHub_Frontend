@@ -38,3 +38,6 @@ fieldset {
 h1 {
 	color: #0000CD;
 }
+ul {
+	list-style: none;
+}
