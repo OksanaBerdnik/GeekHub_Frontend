@@ -1,0 +1,43 @@
+div.wrapper {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	background-image: url(../images/2.jpg);	
+}
+div.child {
+	width:60%;
+	background-image: url(../images/1.jpg);  
+	margin: 0 auto;
+}
+p.align {
+	text-align: center;
+}
+h1 {
+	text-align: center;
+	color:#0000CD;
+	padding: 30px;
+	font-size: 30pt;
+	font-weight: bolder;
+}	
+a {
+	text-decoration:none;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+p {
+	padding: 20px;
+	font-size: 13pt;
+}
+span{
+	font-size: 15pt;
+}
+ul {
+	list-style: none;
+}
+ul.hr {
+    padding-left:20px;
+	padding-bottom: 20px;
+}
+ul.hr li {
+    display: inline; 
+    margin-right: 5px;
+}
+	
