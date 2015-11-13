@@ -1,0 +1,152 @@
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 11px;
+    color: #555555;
+}
+.bold {
+	font-weight: bolder;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+}
+.black {
+	color: black;
+}
+.first_word {
+	color: #888888;
+}
+.block {
+	display: block;
+}
+/*------------------------------------wrapper-------------------------------------*/
+.wrapper {
+	background: #ffffff;
+	width: 1030px;
+	margin: 0 auto;
+}
+
+/*------------------------------------header-------------------------------------*/
+.header {
+	padding: 26px;
+}
+/*------------------------------------main-------------------------------------*/
+.main {
+	background: #f4f4f4;
+	padding: 20px;
+	overflow: hidden;
+}
+/*------------------------------------menu-------------------------------------*/
+.menu {
+	float: left;
+	width: 140px;
+	margin-right: 20px;
+}
+.sun, .new{
+	width: 100%;
+}
+.descriptions, p, .blog span{
+	line-height: 1.5;
+}
+.descriptions p {
+	margin-bottom: 11px;
+}
+.categories ul li, .pages ul li {
+	background: #e8e8e8;
+	margin-bottom: 1px;
+	margin-top: 1px;
+	padding: 7px;
+}
+.li_right {
+	float: right;
+}
+h3 {
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+input {
+	width: 95%;
+}
+/*------------------------------------blog-------------------------------------*/
+h1 {
+	font-size: 22px;
+	margin-top: 7px;
+	margin-bottom: 14px;
+}
+.blog {
+	float: left;
+	padding-right: 20px;
+	width: 500px;
+}
+.post {
+	width: 240px;
+	height: 125px;
+	float: right;
+	margin-left: 30px;
+}
+.pagination ul li {
+	display: inline;
+}
+.pagination ul li a {
+	padding: 5px 7px;
+}
+.active {
+	background: #555555;
+	padding: 5px 0px;
+	margin-left: 5px;
+}
+.pagination ul li a:hover {
+	background: #555555;
+}
+.pagination {
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+.under_post {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.posts ul li {
+	margin-top: 60px;
+}
+.posts ul li .block {
+	clear: both;
+	padding-top: 20px;
+}
+.posts ul li h2 {
+	margin-bottom: 15px;
+	font-size: 15px;
+}
+/*------------------------------------sidebar-------------------------------------*/
+.sidebar {
+	float: left;
+	width: 300px;	
+}
+.twitter {
+	float: left;
+	filter: none;
+	-webkit-filter: grayscale(.8);	
+}
+.social ul  li {
+	float: left;
+	width: 150px;
+	margin-bottom: 20px;
+	margin-top: 7px;
+}
+.ban {
+	height: 246px;
+	width: 100%;
+}
+.first {
+	float: left;
+	width: 160px;
+}
+.second {
+	float: right;
+	width: 120px;
+}
+/*------------------------------------footer-------------------------------------*/
+.footer {
+	clear: both;
+	padding: 20px; 
+}
