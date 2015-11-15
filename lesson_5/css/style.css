@@ -29,6 +29,9 @@ a {
 /*------------------------------------header-------------------------------------*/
 .header {
 	padding: 26px;
+	padding-bottom: 10px;
+	font-size: 18px;
+	font-family: 'versasanscon-semibold', serif;
 }
 /*------------------------------------main-------------------------------------*/
 .main {
@@ -69,9 +72,9 @@ input {
 }
 /*------------------------------------blog-------------------------------------*/
 h1 {
-	font-size: 22px;
-	margin-top: 7px;
-	margin-bottom: 14px;
+	font-size: 23px;
+	margin-top: 9px;
+	margin-bottom: 16px;
 }
 .blog {
 	float: left;
@@ -84,7 +87,7 @@ h1 {
 	float: right;
 	margin-left: 30px;
 }
-.pagination ul li {
+.pagination ul li, .blog ul li {
 	display: inline;
 }
 .pagination ul li a {
@@ -106,16 +109,20 @@ h1 {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
-.posts ul li {
-	margin-top: 60px;
-}
 .posts ul li .block {
 	clear: both;
 	padding-top: 20px;
 }
+.line {
+	line-height: 1;
+}
 .posts ul li h2 {
 	margin-bottom: 15px;
 	font-size: 15px;
+	margin-top: 3px;
+}
+.margin  {
+	margin-bottom: 60px;
 }
 /*------------------------------------sidebar-------------------------------------*/
 .sidebar {
