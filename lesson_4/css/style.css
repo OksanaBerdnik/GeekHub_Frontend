@@ -1,0 +1,238 @@
+.left,
+.logo {
+	float: left;
+}
+.right,
+.menu,
+.title,
+.nav,
+.nav ul li {
+	float: right;
+}
+.block {
+	display: block;
+}
+.inline,
+.authorization ul li
+ {
+	display: inline;
+}
+/*--------------------------------wrapper-------------------------------------*/
+.wrapper {
+	background: -webkit-linear-gradient(top, #cfd8da 3%,#eff2f3 12%,#f0f3f3 14%,#fefefe 44%);
+	background: -moz-linear-gradient(top, #cfd8da 3%,#eff2f3 12%,#f0f3f3 14%,#fefefe 44%);
+	background: -o-linear-gradient(top, #cfd8da 3%,#eff2f3 12%,#f0f3f3 14%,#fefefe 44%);
+	font-family: Arial;
+	font-size: 10px;
+}
+.header,
+.content,
+.footer {
+	width: 64.6666667%;
+	margin: 0 auto;
+	overflow: hidden;
+	font-size: 12px;
+}
+.title,
+.nav,
+.social {
+	font-family: Myriad Pro;
+}
+.footer,
+.title {
+	clear: both;
+}	
+h2 {
+	text-align: left;
+	font-size: 20px;
+	color: #03a7fe;
+}
+h1 {
+	font-size: 26px;
+	margin-bottom: 14px;
+}
+/*---------------------------------header-------------------------------------*/
+.logo {
+	color: #939598;
+	width: 45%;
+}
+.authorization {
+	padding: 3px 20px;
+	border-radius: 0 0 20px 20px;
+	background: #ffffff;
+}
+.logo-image {
+	width: 63.63%
+}
+.menegers {
+	width: 100%;
+	height: auto;	
+}
+.pipe {
+	margin:0 5px;
+}
+.title {
+	margin: 34px 26px 34px 0;
+	color: #646464;
+}
+.menu {
+
+	width: 55%;
+}
+.nav {
+	margin-right: 26px;
+	width: 100%;
+}
+.title,
+.nav {
+	font-size: 16px;
+}
+.nav ul li {
+	border-top: 1px solid #939598;
+	border-left: 1px solid #939598;
+	padding: 14px 0;
+	width: 30%;
+	text-align: center;
+}
+.header {
+	border-bottom: 1px solid #939598; 
+}
+.nav ul li:first-child {
+	border-radius: 0 20px  0 0;
+	border-right: 1px solid #939598;
+}
+.nav ul li:last-child {
+	border-radius: 20px 0 0 0;
+
+}
+.logo_name {
+	padding-top: 25px;
+	font-weight: 500;
+	font-size: 20px;
+}	
+/*-----------------------------sidebar-------------------------------*/
+.sidebar {
+	width: 30%;
+	margin-right: 20px;
+}
+.categories ul li {
+	width: 100%;
+	border-bottom: 1px solid #c5c5c4;
+	padding: 8px 0;
+}
+a {
+	text-decoration: none;
+	color: #646464;
+}
+.categories h2 {
+	color: #03a7fe;
+	font-size: 18px;
+	margin: 25px 0 30px;
+}
+.categories ul li.last-link {
+	border-bottom: none;
+}
+/*---------------------------------article-------------------------------------*/
+.article {
+	margin: 60px 0 115px 0;
+	overflow: hidden;
+}
+.article-img {
+	height: 100%;
+	display: block;
+	width: 102px;
+	float: left;
+	min-width: 102px;
+	margin: 0 20px 0 12px;
+}
+/*---------------------------------fa-------------------------------------*/
+.fa {
+	padding-right: 5px;
+	color: #6c6c6c;
+}
+.fa-arrow-right {
+	color: #03a7fe;
+	margin-right: 12px;
+}
+/*---------------------------------.firm-------------------------------------*/
+.firm-description {
+	height: 100%;
+	overflow: hidden;
+}
+.firms ul li  {
+	text-align: center;
+	margin-bottom: 15px;
+}
+a:hover,
+.fa:hover {
+	color: #03a7fe;
+}
+.firm-link {
+	color: #03a7fe;
+	font-weight: bold;
+}
+.firm-name {
+	padding-bottom: 4px;
+}
+.firm1, 
+.firm3 {
+	overflow: hidden;
+	min-height: 237px;
+	height: 1px;
+	padding: 18px 0;
+	border-top: 1px solid #03a7fe;
+}
+.firm3 {
+	border-bottom: 1px solid #03a7fe;
+}
+.firm1 ul li {
+	float: left;
+	width: 50%;
+	background-color: #dfe5e6;
+	padding: 5px 0;
+	margin-top: 3px;
+
+}
+.firm1 ul li.contact {
+	padding-left: 50%;
+	margin-top: 0;
+}
+.firm1 ul li.contact:nth-child(odd) {
+	background: #edf0f1;
+}
+.firm1 ul li  span {
+	margin-left: 10px;
+	color: #555555;
+}
+/*---------------------------------social-------------------------------------*/
+.social-rss {
+	padding: 5px 20px;
+	border: 2px solid #ff9600;
+	border-radius: 16px;
+	color: #ff9600;
+	font-size: 18px;
+}
+.social-rss a,
+.social-rss i {
+	color: #ff9600;
+}
+.social {
+	border-top: 1px solid #cbcac9;
+	border-bottom: 1px solid #cbcac9;
+	text-align: center;
+	margin: 50px 0 35px 0;
+	padding: 15px 0;
+}
+/*---------------------------------footer-----------------------------------*/
+.footer-content {
+	margin-bottom: 30px;
+	margin-left: 30%;
+	margin-right: 26px;
+	padding: 5px 18px;
+	background: #d9dada;
+	border-radius: 0 0 16px 16px;
+	font-size: 12px;
+}
+.footer {
+	border-top: 1px solid #cbcac9;
+}
