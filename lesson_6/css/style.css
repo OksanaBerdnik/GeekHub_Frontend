@@ -29,6 +29,14 @@ body {
 .menu-list  {
 	overflow: hidden; 
 }
+header {
+	width: 100%;
+    position: fixed;
+    background: #edeff1;
+}
+.main-content {
+	padding-top: 152px;
+}
 .deals {
 	float: left;
 	width: 390px;
