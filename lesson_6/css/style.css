@@ -1,17 +1,35 @@
+@font-face {
+    font-family: "Roboto Slab";
+    src: url(../fonts/robotoslab/robotoslab-light-webfont.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/roboto/roboto-light-webfont.ttf);
+}
+@font-face {
+    font-family: "proximanova";
+    src: url(../fonts/proximanova/montserrat-light-webfont.ttf);
+}
 body {
 	background-color: #edeff1;
-	font-family: 'Roboto';
+	font-family: "Roboto", sans-serif;
 	font-size: 15px;
 	font-weight: 300;
 	color: #31353e;
+	line-height: 30px;	
+}
+h1, h2, h3, header {
+	font-family: "Roboto", sans-serif;
+	font-size: 30px;
+	font-weight: 900;
 }
 .main {
-	background: url(../images/main-img-bg.jpg) no-repeat;
+	background: url(../images/main-img-bg.jpg) no-repeat 50% 100% ;
 	background-size: cover;
-  	background-position: 50% 100%;
 	height: 1321px;
 	color: white;
 	text-align: center;
+	padding-top: 152px;
 }
 .container,
 .header, 
@@ -26,144 +44,129 @@ body {
 .first-article,
 .description,
 .menu-items,
-.menu-list  {
+.menu-list,
+.orange-area,
+.deals-item,
+.logo  {
 	overflow: hidden; 
 }
 header {
+	display: block;
 	width: 100%;
     position: fixed;
     background: #edeff1;
-    z-index: 1000; 
+    z-index: 1; 
 }
-.main-content {
-	padding-top: 152px;
-}
-.deals {
+.deals-item article {
 	float: left;
 	width: 390px;
 }
 .hgroup {
-	padding-top: 490px;
 	margin-bottom: 120px;
+	line-height: 48px;
 }
-.hgroup h2 {
+.hgroup h1 {
 	font-size: 72px;
-	font-family: "RobotoSlab";
 	padding-bottom: 20px;
+	font-weight: 300;
 }
-.hgroup h3 {
-	font-size: 30px;
-	font-weight: 700;
+.container {
+	padding-top: 490px;
 }
-.deals h3 {
-	font-size:30px;
-	font-family: 'RobotoSlab';
-	font-weight: 700;
+.deals-item article  h3 {
 	margin: 28px 0;
 }
-.deals p {
-	line-height: 30px;
+.deals-item article  p {
 	padding: 0 45px;
 }
-.container-link a {
+.our-news-article a,
+.container a.read-more  {
 	padding: 15px 60px;
 	border-radius: 27px;
 	background: white;
 	color: #612316;
 	font-size: 18px;
-	font-weight: 400;
-}
-.container-link {
-	clear: both;
+	font-weight: 900;
 }
 .deals-item {
 	margin-bottom: 78px;
-	overflow: hidden;
 }
 .logo {
-	float: left;
-	font-family: 'RobotoSlab';
-	margin: 50px 380px 50px 0;
+	margin: 45px 0;
 }
-.logo h1 {
+.logo a{
 	color: #31353e;
-	font-size: 36px;
-	font-weight: 700;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1;
 }
-.logo h2 {
+.logo span {
 	color: #dd4b2b;
 	font-size: 16px;
 	font-weight: 400;
+	display: block;
+	letter-spacing: 1px;
 }
 a {
 	text-decoration: none;
 }
 a.read-more:hover,
 .header nav a:hover,
-.our-news-article span a:hover,
-.description article span a:hover {
+.our-news-article a:hover,
+.description a:hover {
 	background: #dd4b2b; 
 	color: white;	
 }
 .header nav {
-	padding: 60px 0;
+	padding: 58px 0;
 	display: block;
-	overflow: hidden;
+	float: right;
 }
-.header nav a,
-.our-news-article span a,
-.description article span a {
-	padding: 15px 23px;
+.header nav li a,
+.description a {
+	padding: 15px 21px;
 	border-radius: 27px;
 	color: #612316;
 	font-size: 18px;
 	font-weight: 400;
 }
-.our-news-article span a {
+.our-news-article a {
 	background: white;
 }
-.description article span a {
+.description a {
 	background-color: #4b4e73;
 	color: #fff;
 	padding: 18px 68px;
 }
-.our-news h2 {
+.our-news h1 {
 	text-align: center;
 	color: #31353e;
-	font-family: 'RobotoSlab';
-	font-size: 30px;
-	font-weight: 700;
-	margin: 82px 0;
+	margin: 80px 0;
 }
 .our-news-article {
 	text-align: center;
 	width: 390px;
 	float: left;
-	padding-bottom: 20px;
+	padding-bottom: 20px;   
 }
-.our-news-article article {
-	padding: 40px;
-	line-height: 30px;
-}
-.our-news-article article h3 {
+.our-news-article h2 {
 	font-size: 24px;
-	font-weight: 700;
+	margin-top: 60px;
+}
+.our-news-article p {
+	margin-bottom: 60px;
+	padding: 0 40px;
 }
 .news-content {
-	height: 786px;
+	padding-bottom: 100px;
 }
 section.email-post,
 .footer {
-	background: url(../images/email.jpg) no-repeat;
+	background: url(../images/email.jpg) no-repeat 50% 100%;
 	background-size: cover;
-  	background-position: 50% 100%;
 	height: 384px;
 	color: white;
 	text-align: center;
-}
-.letter h2 {
-	font-size: 30px;
-	font-weight: 700;
 }
 .letter p {
 	width: 533px;
@@ -189,11 +192,9 @@ form {
     color: #f3f4f6;
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px;
     margin: 0 auto;
 }
 form input {
-    height: 54px;
     background-color: rgba(0, 0, 0, 0);
     border: none;
     color: #f3f4f6;
@@ -201,20 +202,20 @@ form input {
     font-weight: 400;
     float: left;
     width: 259px;
-    padding-left: 36px;
+    padding: 15px 0 15px 36px;
 }
 form input:focus,
 button:focus  {
 	outline: none;
 }
-div button {
-    height: 54px;
+button {
     background-color: white;
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 27px;
     color: #612316;
     width: 214px;
     font-size: 18px;
+    padding: 15px 0;
 }
 .articles {
 	background: #fff;
@@ -228,10 +229,10 @@ div button {
 	padding: 65px 45px;
 }
 .first-image {
-	float: left;
+	float: right;
 }
 .second-image {
-	float: right;
+	float: left;
 }
 .first-image img,
 .second-image img {
@@ -241,34 +242,35 @@ div button {
 .first-article {
 	padding: 25px 0;
 }
-.description article h2 {
+.description h2 {
 	color: #191b29;
-	font-size: 30px;
-	font-weight: 700;
 	margin-bottom: 25px;
 }
-.description article p {
+.description p {
 	color: #191b29;
 	font-size: 16px;
-	line-height: 30px;
 	margin-bottom: 45px;
 }
 .orange-area {
 	background-color: #d75d0e;
 }
-.menu-list {
-	float: left;
-	width: 390px;
+.menu-items {
 	text-align: center;
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 36px;
-}
-.menu-list a {
-	color: white;
-}
-.menu-items {
 	padding: 96px 0 76px;
+}
+.menu-items ul {
+    -webkit-column-width: 300px;
+    -moz-column-width: 300px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+}
+.menu-items a {
+	color: white;
 }
 .footer {
 	font-family: 'ProximaNova';
@@ -277,8 +279,10 @@ div button {
 }
 .footer p a {
 	color: white;
-	font-weight: 700;
 }
-.footer-text {
+.footer p:first-child {
 	padding-top: 90px;
+}
+nav ul li {
+    float: left;
 }
