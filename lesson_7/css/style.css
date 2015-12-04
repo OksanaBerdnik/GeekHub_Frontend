@@ -1,0 +1,378 @@
+@font-face {
+	font-family: "OpenSans";
+	src: url(../fonts/opensans/opensans-light-webfont.ttf);
+}
+@font-face {
+	font-family: "roboto";
+	src: url(../fonts/roboto/roboto-light-webfont.ttf);
+}
+@font-face {
+	font-family: "opensans-bold";
+	src: url(../fonts/opensans-bold/opensans-bold-webfont.ttf);
+}
+body,
+figcaption span,
+::-webkit-input-placeholder,
+::-webkit-textarea-placeholder,
+input,
+textarea {
+	font-family: "opensans";
+}
+body {
+	color: #a8a8a8;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	background-color: #f4f4f4;
+}
+.bg {
+	background-color: #fafafa;
+}
+.car,
+ul.portfolio li,
+.deals article,
+div.row1  {
+	float: left;
+}
+nav,
+figcaption span,
+button,
+form {
+	float: right;
+}
+nav ul li,
+.header,
+h1, h2, h3,
+.article a,
+button,
+figcaption,
+.img-container .link a {
+	text-transform: uppercase;
+}
+h1, h2, h3, 
+.article a,
+button,
+figcaption,
+.img-container .link a {
+	color: #504f50;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 45px; 	
+}
+header,
+h1, h2, h3,
+.article a,
+figcaption,
+button,
+.img-container .link a {
+	font-family: "opensans-bold";
+}
+header,
+.wrapper,
+.article,
+.design,
+form div,
+.row {
+	overflow: hidden;
+}
+.wrapper,
+.wrapper-no-padding,
+.header,
+.introduction {
+	width: 1170px;
+	margin: 0 auto;
+}
+.wrapper {
+	padding: 50px 0;
+}
+/*--------------------------------------header----------------------------------------*/
+
+header {
+	background: url(../images/header-bg.jpg) no-repeat 50% 100%;
+	background-size: cover;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 700;
+}
+a {
+	text-decoration: none;
+}
+.header {
+	width: 515px;
+	clear: both;
+	font-size: 33px;
+	line-height: 45px;
+	padding: 210px 0 100px;
+}
+.header p {
+	margin-bottom: 40px;
+}
+.header a,
+.article a,
+button {
+	font-size: 20px;
+	padding: 20px 40px;
+	color: #323030;
+	background: #fff;
+	border-radius: 4px;
+}
+.header a:hover,
+footer,
+.article .underscores,
+.deals article:hover,
+.design .underscores {
+	background: #39c9da;
+}
+.nav {
+	padding-top: 20px;
+}
+.nav a {
+	color: #39c9da;
+    font-size: 30px;
+}
+.nav a span {                           
+	color: #fff;
+    font-family: "Roboto";
+    font-size: 48px;
+}
+.nav nav a {
+	font-size: 15px;
+}
+nav {
+	padding-top: 15px;
+}
+nav ul li {
+	display: inline-block;
+	margin-left: 38px;
+}
+.nav nav a,
+.header a:hover,
+footer,
+footer a,
+.read-more,
+.deals article:hover h2,
+.deals article:hover p,
+.deals article:hover .fa,
+.article a,
+button,
+.img-container .link a {
+	color: #fff;
+}
+nav ul li a:hover,
+footer a:hover {
+	border-bottom: 2px solid #fff;
+}
+/*------------------------------------------about us------------------------------------------*/
+.car {
+	max-width: 570px;
+	max-height: 275px;
+	height: auto;
+	margin: 62px 30px 0 0;
+}
+.article .underscores,
+.design .underscores{
+	margin: 15px 0 22px;
+	height: 2px;
+	width: 99px;
+}
+.article p{
+	margin-bottom: 15px;
+}
+.article :nth-last-child(2) {
+	margin-bottom: 48px;
+}
+.article a,
+button {
+	padding: 20px 38px;
+	background: #39c9da;
+} 
+.article {
+	padding-bottom: 14px;
+}
+.article h2,
+figcaption,
+.design h2,
+.design h3 {
+	font-size: 14px;
+	line-height: 1.4;
+}
+.introduction {
+	width: 486px;
+	margin-bottom: 45px;
+}
+.introduction,
+footer,
+.header,
+.deals,
+.link {
+	text-align: center;
+}
+/*-----------------------------------------portfolio----------------------------------------*/
+ul.portfolio li {
+	padding-bottom: 40px;
+	width: 31.623931%;
+}
+figure img {
+	max-width: 370px;
+	max-height: 300px;
+	height: auto;
+}
+.underscores {
+	width: 74px;
+	height: 1px;
+    background-color: #c2c2c2;
+    margin: 0 auto 25px;
+}
+figcaption span {
+	color: #aba7ab;
+	font-size: 12px;
+	font-style: italic;
+	text-transform: capitalize;
+	font-weight: 400;
+}
+figure,
+.deals article,
+.deals article:hover a {
+	background: #fff;
+} 
+.deals :hover a {
+	color: #323030;
+}
+
+ul.portfolio li {
+    margin-right: 2.56%;
+}
+ul.portfolio li:nth-last-child(-n+3),
+form:last-child {
+    padding-bottom: 0;
+}
+ul.portfolio li:nth-child(3n) {
+	margin-right: 0;
+}
+figcaption {
+	padding: 26px 18px 26px 13px;
+}
+figure a {
+	color: #504f50;
+}
+figure a:hover {
+	border-bottom: 2px solid #504f50;
+}
+.img-container {
+	position: relative;
+}
+.link {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    max-height: 300px;
+}
+.img-container .link a {
+	padding: 15px 30px;
+	border: 1px solid white;
+	border-radius: 2px;
+	display: inline-block;
+  	margin-top: 30%;
+  	left: 0;
+}
+.link:hover {
+	opacity: 1;
+	background-color: rgba(66, 65, 65, 0.83);
+	-webkit-transition: 0.5s ;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+/*-----------------------------services----------------------------*/
+.deals article {
+	width: 19.5%;
+	padding: 5px 16px 30px 27px;
+	margin-right: 2.111111111%;
+	color: #504f50;
+	border: 1px solid #e2e2e2;
+}
+.deals article p {
+	margin-bottom: 35px;
+}
+.deals :last-child {
+	margin-right: 0;
+}
+span.fa {
+	color: #39c9da;
+	font-size: 33px;
+	line-height: 2.5;
+}
+.read-more {
+	padding: 10px 28px;
+	background-color: #4b4a4b;
+	border-radius: 2px;
+}
+.deals article:hover div {
+	background-color: #5c5959;
+	border: none;
+}
+.deals article:hover div,
+.deals article:hover,
+.deals article:hover h2,
+.deals article:hover .fa,
+.deals article:hover a,
+.header a:hover {
+	-webkit-transition: .7s;
+	-moz-transition: .7s;
+    -o-transition: .7s;
+    transition: .7s;
+}
+/*--------------------------------contact us----------------------------------*/
+button {
+	border: none;
+	padding: 5px 60px;
+}
+::-webkit-input-placeholder,
+::-webkit-textarea-placeholder {
+	color: #c9c9c9;
+	font-size: 14px;
+}
+input,
+textarea {
+	border: 1px solid #e6e6e6;
+	padding: 15px;
+	resize: none;
+	color: #504f50;
+	font-size: 16px;
+}
+form {
+	width: 50%;
+}
+form input,
+textarea {
+	width: 94%;
+}
+form div {
+	padding-bottom: 30px;
+}
+.row {
+	width: 47%;
+}
+.row input {
+	width: 87%;
+}
+div.row1 {
+	margin-right: 6%;
+}
+.design h3 {
+	text-transform: capitalize;
+	margin-bottom: 25px;
+}
+.design p {
+	margin-bottom: 20px;
+}
+.design {
+	padding-right: 30px;
+}
+/*----------------------------footer--------------------------------*/
+footer {
+	padding: 20px 0;
+}
