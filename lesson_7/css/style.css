@@ -18,11 +18,15 @@ input,
 textarea {
 	font-family: "opensans";
 }
+html {
+	font-size: 62.5%;
+	line-height: 62.5%;
+}
 body {
 	color: #a8a8a8;
-	font-size: 14px;
+	font-size: 1.4rem;
 	font-weight: 400;
-	line-height: 20px;
+	line-height: 2rem;
 	background-color: #f4f4f4;
 }
 .bg {
@@ -37,8 +41,11 @@ div.row1  {
 nav,
 figcaption span,
 button,
-form {
+.form {
 	float: right;
+}
+nav{
+	display: block;
 }
 nav ul li,
 .header,
@@ -55,9 +62,9 @@ button,
 figcaption,
 .img-container .link a {
 	color: #504f50;
-	font-size: 20px;
+	font-size: 2rem;
 	font-weight: 700;
-	line-height: 45px; 	
+	line-height: 4.5rem; 	
 }
 header,
 h1, h2, h3,
@@ -68,11 +75,11 @@ button,
 	font-family: "opensans-bold";
 }
 header,
-.wrapper,
 .article,
 .design,
-form div,
-.row {
+.row,
+.deals,
+section {
 	overflow: hidden;
 }
 .wrapper,
@@ -91,17 +98,17 @@ header {
 	background: url(../images/header-bg.jpg) no-repeat 50% 100%;
 	background-size: cover;
 	color: #fff;
-	font-size: 15px;
+	font-size: 1.5rem;
 	font-weight: 700;
 }
 a {
 	text-decoration: none;
 }
 .header {
-	width: 515px;
+	width: 51%;
 	clear: both;
-	font-size: 33px;
-	line-height: 45px;
+	font-size: 3.3rem;
+	line-height: 4.5rem;
 	padding: 210px 0 100px;
 }
 .header p {
@@ -110,7 +117,7 @@ a {
 .header a,
 .article a,
 button {
-	font-size: 20px;
+	font-size: 2rem;
 	padding: 20px 40px;
 	color: #323030;
 	background: #fff;
@@ -128,15 +135,15 @@ footer,
 }
 .nav a {
 	color: #39c9da;
-    font-size: 30px;
+    font-size: 3rem;
 }
 .nav a span {                           
 	color: #fff;
     font-family: "Roboto";
-    font-size: 48px;
+    font-size: 4.8rem;
 }
 .nav nav a {
-	font-size: 15px;
+	font-size: 1.5rem;
 }
 nav {
 	padding-top: 15px;
@@ -164,8 +171,7 @@ footer a:hover {
 }
 /*------------------------------------------about us------------------------------------------*/
 .car {
-	max-width: 570px;
-	max-height: 275px;
+	max-width: 100%;
 	height: auto;
 	margin: 62px 30px 0 0;
 }
@@ -186,6 +192,10 @@ button {
 	padding: 20px 38px;
 	background: #39c9da;
 } 
+.article a:hover,
+button:hover {
+	color: #323030;
+} 
 .article {
 	padding-bottom: 14px;
 }
@@ -193,8 +203,8 @@ button {
 figcaption,
 .design h2,
 .design h3 {
-	font-size: 14px;
-	line-height: 1.4;
+	font-size: 1.4rem;
+	line-height: 1.4rem;
 }
 .introduction {
 	width: 486px;
@@ -213,7 +223,7 @@ ul.portfolio li {
 	width: 31.623931%;
 }
 figure img {
-	max-width: 370px;
+	max-width: 100%;
 	max-height: 300px;
 	height: auto;
 }
@@ -225,7 +235,7 @@ figure img {
 }
 figcaption span {
 	color: #aba7ab;
-	font-size: 12px;
+	font-size: 1.2rem;
 	font-style: italic;
 	text-transform: capitalize;
 	font-weight: 400;
@@ -302,8 +312,8 @@ figure a:hover {
 }
 span.fa {
 	color: #39c9da;
-	font-size: 33px;
-	line-height: 2.5;
+	font-size: 3.3rem;
+	line-height: 2em;
 }
 .read-more {
 	padding: 10px 28px;
@@ -319,7 +329,9 @@ span.fa {
 .deals article:hover h2,
 .deals article:hover .fa,
 .deals article:hover a,
-.header a:hover {
+.header a:hover,
+.article a:hover,
+button:hover {
 	-webkit-transition: .7s;
 	-moz-transition: .7s;
     -o-transition: .7s;
@@ -333,34 +345,49 @@ button {
 ::-webkit-input-placeholder,
 ::-webkit-textarea-placeholder {
 	color: #c9c9c9;
-	font-size: 14px;
+	font-size: 1.4rem;
 }
-input,
+::-webkit-textarea-placeholder {
+	margin-left: 15px;
+}
+form p input,
 textarea {
 	border: 1px solid #e6e6e6;
-	padding: 15px;
 	resize: none;
 	color: #504f50;
-	font-size: 16px;
+	font-size: 1.6rem;
+	width: 94%;
+	box-sizing: content-box;
 }
-form {
+form p input,
+textarea{
+	padding: 15px;
+}
+form p {
+	margin-bottom: 30px;
+}
+form p:last-child {
+	padding: 0;
+}
+.form {
 	width: 50%;
 }
 form input,
 textarea {
 	width: 94%;
 }
-form div {
-	padding-bottom: 30px;
+form p {
+	margin-bottom: 30px;
 }
 .row {
-	width: 47%;
+	width: 47.5%;
 }
 .row input {
-	width: 87%;
+	width: 88%;
 }
-div.row1 {
-	margin-right: 6%;
+.row1 {
+	margin-right: 5%;
+	float: left;
 }
 .design h3 {
 	text-transform: capitalize;
@@ -375,4 +402,6 @@ div.row1 {
 /*----------------------------footer--------------------------------*/
 footer {
 	padding: 20px 0;
+	clear: both;
+	margin-top: 30px;
 }

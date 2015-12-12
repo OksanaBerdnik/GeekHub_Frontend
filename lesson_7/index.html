@@ -3,9 +3,11 @@
 	<head>
 		<title>UlBrush</title>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="../css/reset.css" rel="stylesheet" type="text/css">
 		<link href="css/style.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link href="css/media.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 		<header>
@@ -56,7 +58,7 @@
 					<li>
 						<figure>
 							<div class="img-container">
-								<img src="images/person.jpg">
+								<img src="images/person.jpg" alt="person">
 								<div class="link">
 									<a href="#">Read more</a>
 								</div>
@@ -167,24 +169,25 @@
 					<h1><a name="contact">Contact Us</a></h1>
 					<p>Lorem ipsum dolor sit amet tetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
 				</div>
-				<form action="#" method="POST">
-					<div class="row row1">
-						<input  type="text" name="f_name" placeholder="Name...">
-					</div>
-					<div class="row">
-						<input type="email" name="post" placeholder="E-Mail...">
-					</div>
-					<div>
-						<input type="text" name="subject" placeholder="Subject...">
-					</div>
-					<div>
-						<textarea name="comment" rows="6" placeholder="Message..."></textarea>
-					</div>
-					<div>
-						<button name="send">Submit</button>
-					</div>
-
-				</form>	
+					<div class="form">
+					<form action="#" method="POST">
+						<p class="row row1">
+							<input  type="text" name="f_name" placeholder="Name...">
+						</p>
+						<p class="row">
+							<input  type="email" name="post" placeholder="E-Mail...">
+						</p>
+						<p>
+							<input type="text" name="subject" placeholder="Subject...">
+						</p>
+						<p class="textarea">
+							<textarea name="comment" rows="6" placeholder="Message..."></textarea>
+						</p>
+						<p>
+							<button name="send">Submit</button>
+						</p>
+					</form>	
+				</div>
 				<article class="design">
 					<h2>Contact info</h2>
 					<div class="underscores"></div>
