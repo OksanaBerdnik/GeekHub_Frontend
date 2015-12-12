@@ -1,0 +1,184 @@
+@media screen and (min-width: 320px) and (max-width: 479px){
+	ul.portfolio li,
+	ul.portfolio li:nth-last-child(-n+3),
+	ul.portfolio li:nth-child(3n){
+		width: 300px;
+		margin: 0 auto;
+		padding-bottom: 20px;
+		float: none;
+	}
+	.deals article,
+	.deals :last-child {
+		width: 150px;
+		margin: 0 auto 10px;
+		float: none;
+	}
+	.row {
+		width: 102%;
+	}
+	form p input,
+	textarea {
+		width: 89%;
+	}
+	.row input {
+		width: 87.5%
+	}
+	.row1 {
+		float: none;
+	}
+}
+@media screen and (min-width: 480px) and (max-width: 767px){
+	ul.portfolio li,
+	ul.portfolio li:nth-last-child(-n+3) {
+		width: 48%;
+		margin: 0;
+		padding-bottom: 20px;
+	}
+	ul.portfolio li:nth-last-child(-n+2){
+		padding-bottom: 0;
+	}
+	.deals article {
+		width: 35%;
+		margin: 5px 0;
+	}
+	ul.portfolio li:nth-child(odd) {
+		margin-right: 4%;
+	}
+	.deals article:nth-child(odd){
+		margin-right: 2%;
+	}
+	.deals {
+		width: 70%;
+		margin: 0 auto;
+	}
+	form p input,
+	textarea {
+		width: 93%;
+	}
+	.row input {
+		width: 85%;
+	}
+
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	html {
+		font-size: 45%;
+	}
+	.wrapper-no-padding {
+		background-color: rgba(0, 0, 0, 0.2);
+	}
+	.form {
+		width: 60%;
+	}
+	form p input,
+	textarea {
+		width: 92.5%;
+	}
+	.row input {
+		width: 85%;
+	}
+	.car {
+		width: 50%;
+	}
+	.header {
+		padding: 75px 0;
+	}
+	.introduction {
+		width: 50%;
+	}
+	.deals article {
+		width: 36.97%;
+		margin: 5px 0;
+	}
+	.deals article:nth-child(odd){
+		margin-right: 6%;
+	}
+	.deals {
+		width: 60%;
+		margin: 0 auto;
+	}
+	.link {
+		height: 99%
+	}
+}
+@media screen and (min-width: 1024px) and (max-width: 1169px) {
+	form p input,
+	textarea {
+		width: 92.5%;
+	}
+	.row input {
+		width: 84%;
+	}
+	.deals article {
+		width: 18.9%;
+	}
+}
+@media screen and (max-width: 1169px){
+	.wrapper,
+	.wrapper-no-padding {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	section,
+	.nav {
+		padding: 20px 10px;
+	}
+}
+@media screen and (max-width: 767px){
+	div.nav nav {
+		display: none;
+	}
+	.car {
+		width: 100%;
+		float: none;
+		margin: 20px 0;
+	}
+	.nav,
+	.header {
+		text-align: center;
+	}
+	.header {
+		padding: 45px 0px;
+	}
+	html {
+		font-size: 40%;
+		line-height: 40%;
+	}
+	.introduction {
+		width: 60%;
+		margin-bottom: 20px; 
+	}
+	div.nav a {
+		font-size: 300%;
+	}
+	.header p {
+		font-size: 90%;
+		line-height: 1.5;
+	}
+	.article :nth-last-child(2) {
+    	margin-bottom: 30px;
+	}
+	.form {
+		float: none;
+		width: 100%;
+	}
+	form p:last-child {
+		padding-bottom:0;
+	}
+	figcaption {
+		padding: 15px;
+	}
+	.link {
+		height: 99%;
+	}
+	.header a, 
+	.article a, 
+	button {
+		padding: 10px 30px;
+	}
+	.design {
+		clear: both;
+		padding: 0;
+	}
+}
