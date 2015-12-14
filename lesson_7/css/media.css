@@ -9,7 +9,7 @@
 	}
 	.deals article,
 	.deals :last-child {
-		width: 150px;
+		width: 75%;
 		margin: 0 auto 10px;
 		float: none;
 	}
@@ -38,7 +38,7 @@
 		padding-bottom: 0;
 	}
 	.deals article {
-		width: 35%;
+		width: 49%;
 		margin: 5px 0;
 	}
 	ul.portfolio li:nth-child(odd) {
@@ -48,7 +48,7 @@
 		margin-right: 2%;
 	}
 	.deals {
-		width: 70%;
+		width: 80%;
 		margin: 0 auto;
 	}
 	form p input,
@@ -58,7 +58,6 @@
 	.row input {
 		width: 85%;
 	}
-
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	html {
@@ -87,7 +86,7 @@
 		width: 50%;
 	}
 	.deals article {
-		width: 36.97%;
+		width: 47%;
 		margin: 5px 0;
 	}
 	.deals article:nth-child(odd){
@@ -110,7 +109,7 @@
 		width: 84%;
 	}
 	.deals article {
-		width: 18.9%;
+		width: 23.418%;
 	}
 }
 @media screen and (max-width: 1169px){
@@ -142,8 +141,8 @@
 		padding: 45px 0px;
 	}
 	html {
-		font-size: 40%;
-		line-height: 40%;
+		font-size: 50%;
+		line-height: 50%;
 	}
 	.introduction {
 		width: 60%;
