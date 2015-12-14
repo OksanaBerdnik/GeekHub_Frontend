@@ -28,8 +28,8 @@
 
 @media screen and (max-width: 767px) {
 	html {
-		font-size: 40%;
-		line-height: 40%;
+		font-size: 50%;
+		line-height: 50%;
 	}
 	.header nav {
 		display: none;
