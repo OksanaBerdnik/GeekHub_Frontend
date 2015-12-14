@@ -26,6 +26,9 @@
 	.row1 {
 		float: none;
 	}
+	.link {
+		height: 98.5%;
+	}
 }
 @media screen and (min-width: 480px) and (max-width: 767px){
 	ul.portfolio li,
@@ -57,6 +60,9 @@
 	}
 	.row input {
 		width: 85%;
+	}
+	.link {
+		height: 98%;
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -167,9 +173,6 @@
 	}
 	figcaption {
 		padding: 15px;
-	}
-	.link {
-		height: 99%;
 	}
 	.header a, 
 	.article a, 
