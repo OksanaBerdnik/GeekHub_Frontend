@@ -114,9 +114,6 @@
 	.row input {
 		width: 84%;
 	}
-	.deals article {
-		width: 23.418%;
-	}
 }
 @media screen and (max-width: 1169px){
 	.wrapper,
@@ -125,7 +122,6 @@
 		margin: 0;
 		padding: 0;
 	}
-	section,
 	.nav {
 		padding: 20px 10px;
 	}

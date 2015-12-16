@@ -29,6 +29,9 @@ body {
 	line-height: 2rem;
 	background-color: #f4f4f4;
 }
+section {
+    padding: 20px 10px;
+}
 .bg {
 	background-color: #fafafa;
 }
