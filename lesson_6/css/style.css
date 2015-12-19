@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Roboto Slab";
-    src: url(../fonts/robotoslab/robotoslab-light-webfont.ttf);
+    src: url(../fonts/robotoslab/robotoslab-bold-webfont.ttf);
 }
 @font-face {
     font-family: "Roboto";
@@ -10,23 +10,26 @@
     font-family: "proximanova";
     src: url(../fonts/proximanova/montserrat-light-webfont.ttf);
 }
+html {
+	font-size: 62.5%;
+	line-height: 62.5%;
+}
 body {
 	background-color: #edeff1;
 	font-family: "Roboto", sans-serif;
-	font-size: 15px;
+	font-size: 1.5rem;
 	font-weight: 300;
 	color: #31353e;
-	line-height: 30px;	
+	line-height: 3rem;	
 }
 h1, h2, h3, header {
-	font-family: "Roboto", sans-serif;
-	font-size: 30px;
-	font-weight: 900;
+	font-family: "Roboto Slab", sans-serif;
+	font-size: 3rem;
+	font-weight: 700;
 }
 .main {
 	background: url(../images/main-img-bg.jpg) no-repeat 50% 100% ;
 	background-size: cover;
-	height: 1321px;
 	color: white;
 	text-align: center;
 	padding-top: 152px;
@@ -41,7 +44,6 @@ h1, h2, h3, header {
 }
 .header, 
 .our-news,
-.first-article,
 .description,
 .menu-items,
 .menu-list,
@@ -59,19 +61,21 @@ header {
 }
 .deals-item article {
 	float: left;
-	width: 390px;
+	width: 33.3333333%;
 }
 .hgroup {
 	margin-bottom: 120px;
-	line-height: 48px;
+	line-height: 4.8rem;
 }
 .hgroup h1 {
-	font-size: 72px;
+	font-size: 7.2rem;
 	padding-bottom: 20px;
 	font-weight: 300;
+	font-family: "Roboto", sans-serif;
 }
 .container {
-	padding-top: 490px;
+	padding: 490px 0 200px;
+
 }
 .deals-item article  h3 {
 	margin: 28px 0;
@@ -85,8 +89,8 @@ header {
 	border-radius: 27px;
 	background: white;
 	color: #612316;
-	font-size: 18px;
-	font-weight: 900;
+	font-size: 1.8rem;
+	font-weight: 700;
 }
 .deals-item {
 	margin-bottom: 78px;
@@ -96,16 +100,16 @@ header {
 }
 .logo a{
 	color: #31353e;
-    font-size: 36px;
+    font-size: 3.6rem;
     font-weight: 700;
     line-height: 1;
 }
 .logo span {
 	color: #dd4b2b;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 400;
 	display: block;
-	letter-spacing: 1px;
+	letter-spacing: 0.7px;
 }
 a {
 	text-decoration: none;
@@ -113,7 +117,8 @@ a {
 a.read-more:hover,
 .header nav a:hover,
 .our-news-article a:hover,
-.description a:hover {
+.description a:hover,
+button:hover {
 	background: #dd4b2b; 
 	color: white;	
 }
@@ -127,7 +132,7 @@ a.read-more:hover,
 	padding: 15px 21px;
 	border-radius: 27px;
 	color: #612316;
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: 400;
 }
 .our-news-article a {
@@ -145,12 +150,12 @@ a.read-more:hover,
 }
 .our-news-article {
 	text-align: center;
-	width: 390px;
+	width: 33.3333333%;
 	float: left;
 	padding-bottom: 20px;   
 }
 .our-news-article h2 {
-	font-size: 24px;
+	font-size: 2.4rem;
 	margin-top: 60px;
 }
 .our-news-article p {
@@ -164,33 +169,32 @@ section.email-post,
 .footer {
 	background: url(../images/email.jpg) no-repeat 50% 100%;
 	background-size: cover;
-	height: 384px;
 	color: white;
 	text-align: center;
 }
 .letter p {
-	width: 533px;
+	width: 50%;
 	display: block;
 	margin: 0 auto;
-	line-height: 24px;
+	line-height: 2.4rem;
 	margin-top: 20px;
 	margin-bottom: 40px;
 }
 .letter {
-	padding-top: 90px;
+	padding: 90px 0 100px;
 }
 ::-webkit-input-placeholder {
 	color:#ffffff;
-	font-size: 17px;
+	font-size: 1.7rem;
 	font-weight: 400;
 }
 form {    
-	width: 509px;
+	max-width: 509px;
     background-color: rgba(255, 255, 255, 0.2);
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 27px;
     color: #f3f4f6;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 400;
     margin: 0 auto;
 }
@@ -198,11 +202,13 @@ form input {
     background-color: rgba(0, 0, 0, 0);
     border: none;
     color: #f3f4f6;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 400;
     float: left;
-    width: 259px;
-    padding: 15px 0 15px 36px;
+    width: 55.9724%;
+    padding: 15px;
+    position: relative;
+    box-sizing: border-box;
 }
 form input:focus,
 button:focus  {
@@ -213,9 +219,11 @@ button {
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 27px;
     color: #612316;
-    width: 214px;
-    font-size: 18px;
+    width: 43.6%;
+    font-size: 1.8rem;
     padding: 15px 0;
+    position: inherit;
+    box-sizing: content-box;
 }
 .articles {
 	background: #fff;
@@ -228,16 +236,19 @@ button {
 .description {
 	padding: 65px 45px;
 }
-.first-image {
+.articles-content :nth-child(odd) img {
 	float: right;
 }
-.second-image {
+.articles-content :nth-child(even) img {
 	float: left;
 }
-.first-image img,
-.second-image img {
+.first-article img {
 	width: 588px;
-	height: 407px;
+	height: auto;	
+	/*max-width: 100%;*/
+}
+img {
+	max-width: 100%;
 }
 .first-article {
 	padding: 25px 0;
@@ -248,7 +259,7 @@ button {
 }
 .description p {
 	color: #191b29;
-	font-size: 16px;
+	font-size: 1.6rem;
 	margin-bottom: 45px;
 }
 .orange-area {
@@ -256,9 +267,9 @@ button {
 }
 .menu-items {
 	text-align: center;
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: 400;
-	line-height: 36px;
+	line-height: 3.6rem;
 	padding: 96px 0 76px;
 }
 .menu-items ul {
@@ -274,14 +285,12 @@ button {
 }
 .footer {
 	font-family: 'ProximaNova';
-	font-size: 18px;
-	line-height: 24px;
+	font-size: 1.8rem;
+	line-height: 2.4rem;
+	padding: 90px 0 245px;
 }
 .footer p a {
 	color: white;
-}
-.footer p:first-child {
-	padding-top: 90px;
 }
 nav ul li {
     float: left;
