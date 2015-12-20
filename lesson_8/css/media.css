@@ -1,0 +1,23 @@
+@media screen and (min-width: 320px) and (max-width: 479px) {
+
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	
+}
+@media screen and (min-width: 768px) and (max-width: 1169px) {
+	
+}
+@media screen and (max-width: 480px) {
+	#people .xs-col-6 {
+		float: none;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 767px) {
+	nav ul li {
+		display: none;
+	}
+	html {
+		font-size: 50%;
+	}
+}
