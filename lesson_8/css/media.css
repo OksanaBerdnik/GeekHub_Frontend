@@ -1,16 +1,30 @@
 @media screen and (min-width: 320px) and (max-width: 479px) {
-
+	
+	#workers p a, 
+	#workers p {
+		width: 90%;
+	}
+	#workers ul li {
+		width: 90%;
+	}
+	#subscribe .button {
+		padding-left: 15%;
+		padding-right: 15%
+	}
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
-	
+	#subscribe .button {
+		padding-left: 27.5%;
+		padding-right: 27.5%;
+	}	
 }
 @media screen and (min-width: 768px) and (max-width: 1169px) {
 	
 }
 @media screen and (max-width: 480px) {
-	#people .xs-col-6 {
-		float: none;
-		width: 100%;
+	#pricing .container .row .xs-col-12 {
+		width: 60%;
+		margin: 0 auto 20px;
 	}
 }
 @media screen and (max-width: 767px) {
@@ -19,5 +33,118 @@
 	}
 	html {
 		font-size: 50%;
+	}
+	#fork {
+		padding:50px 0 300px; 
+	}
+	#fork h1 {
+		font-size: 7.5rem;
+		line-height: 4.8rem;
+	}
+	#fork p {
+		margin-top: 3rem;
+		line-height: 3rem;
+	}
+	.description {
+		padding: 20px 0;
+	}
+	#get .row > h2 {
+		display: block;
+		margin: 0 0px 25px 15px;
+	}
+	#get h1 {
+		display: none;
+	}
+	#workers ul li {
+		display: block;
+		width: 60%;
+		margin: 0 auto;	
+	}
+	#workers ul {
+		margin-top: 50px;
+	}
+	#people h1,
+	#pricing h1 {
+		font-size: 4.8rem;
+		line-height: 6rem;
+	}
+	#subscribe p {
+		text-align: center;
+	}
+	form ul li:first-child {
+		width: 64.9%;
+	}
+	#news {
+		padding-bottom: 0;
+	}
+	.description p {
+		width: 90%;
+	}
+	#news div h2 {
+		margin-bottom: 30px;
+	}
+	.hd {
+		display: none;
+	}
+	.none {
+		display: block;
+		font-size: 4rem;
+		margin-bottom: 35px;
+	}
+	#people .row div {
+		margin-top: 20px
+	}
+	#communities h1 {
+		font-size: 4rem;
+		line-height: 4rem;
+	}
+	#communities .container .button {
+		padding: 21px 20px;
+		width: 80%;
+	}
+	.articles {
+		padding: 0 0 20px;
+	}
+	.img-holder {
+		margin-right: 60px;
+	}
+	#subscribe form ul li:first-child {
+		width: 69%;
+	}
+	#pricing .container .row div {
+		width: 42%;
+		margin: 4%;
+	}
+
+}
+@media screen and (max-width: 881px) {
+	#news .container > div,
+	footer .container > div {
+		margin-bottom: 40px;
+	}
+}
+@media screen and (max-width: 1169px){
+	nav ul li {
+		padding: 14px;
+	}
+	.hd {
+		margin-bottom: 35px;
+	}
+	.get-it {
+		position: inherit;
+		height: 446px;
+		width: auto;
+		margin: 0;
+		top: 50px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1169px){
+	#pricing .container .row div {
+		width: 35%;
+		margin: 7.5%;
+	}
+	#subscribe .button {
+		padding-left: 36%;
+		padding-right: 36%;
 	}
 }
