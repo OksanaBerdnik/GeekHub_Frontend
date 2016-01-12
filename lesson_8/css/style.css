@@ -87,9 +87,6 @@ nav a,
 .button {
 	background-color: #8d81ac;
 }
-.button:hover {
-	opacity: 0.5;
-}
 /*/=================================#FORK===============================/*/
 #fork {
 	background: url(../images/fork-bg.jpg) no-repeat 50% 100%;
@@ -217,21 +214,26 @@ dl dd {
 .articles {
 	overflow: hidden;
 }
-#get,
+#get .content,
 #subscribe {
 	background-color: #f4f4f4;
 }
 #get {
 	position: relative;
-	padding: 65px 0 20px;
+	padding: 65px 0 50px;
+	overflow: hidden;
+}
+#get .content {
+	padding-top: 100px;
 }
 #get .row > h2 {
 	display: none;
 }
 .get-it {
 	position: absolute;
-	top: 90px;
-	margin-bottom: -130px;
+	width: 705px;
+	height: 580px;
+	top: 140px;
     box-shadow: 0 0 25px rgba(0, 5, 5, 0.3);
     border-radius: 6px;
 }
@@ -293,7 +295,7 @@ h2,
 }
 #workers ul li {
 	margin: 0 22px;
-	width: 25%;
+	width: 21%;
 	font-size: 2.1rem;
 }
 #workers ul li a {
