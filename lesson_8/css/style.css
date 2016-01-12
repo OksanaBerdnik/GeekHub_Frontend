@@ -1,0 +1,509 @@
+@font-face {
+	font-family: "montserrat-regular";
+	src: url(../fonts/montserrat-regular/montserrat-regular-webfont.ttf);
+}
+@font-face {
+	font-family: "lato-regular";
+	src: url(../fonts/lato-regular/lato-regular-webfont.ttf);
+}
+@font-face {
+	font-family: "source_sans_pro-regular";
+	src: url(../fonts/sourcesanpro-regular/sourcesanspro-regular-webfont.ttf);
+}
+@font-face {
+	font-family: "source_sans_pro-italic";
+	src: url(../fonts/sourcesanpro-italic/sourcesanspro-it-webfont.ttf);
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.4rem;
+	color: #848e97;
+	font-weight: 400;
+	line-height: 2.3rem;
+	font-family: "montserrat-regular";
+}
+#header {
+	padding: 25px 0;
+}
+#people,
+#workers,
+footer,
+#pricing {
+	padding: 65px 0;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+/*/===============================HEADER===============================/*/
+nav ul li {	
+	padding: 14px 23px;
+}
+nav ul li a,
+nav a,
+#fork h1,
+.description h1,
+dl dt,
+dl dd,
+#get h1,
+#get .fa,
+.author h1,
+#people h1,
+#pricing h1,
+#people .row div,
+#news div h2,
+.number,
+.price,
+#subscribe p,
+#get .row > h2 {
+	font-weight: 700;
+}
+nav a,
+nav ul li,
+form  {
+	float: right;
+}
+nav ul li a,
+.description h1,
+.author h1,
+#subscribe p {
+	color: #635c73;
+}
+.button
+input,
+button,
+nav a, 
+.button a,
+#pricing a {
+	border-radius: 21px;
+	color: #fff;
+}
+.button {
+	padding: 14px 35px;
+}
+.deals:before,
+.button {
+	background-color: #8d81ac;
+}
+/*/=================================#FORK===============================/*/
+#fork {
+	background: url(../images/fork-bg.jpg) no-repeat 50% 100%;
+	background-size: cover;
+	text-align: center;
+	padding: 100px 0 536px;
+}
+#fork p,
+#subscribe p,
+.number {
+	font-size: 3rem;
+}
+#fork p,
+#fork span, 
+#fork h1 {
+	line-height: 2rem;
+}
+#fork p {
+	font-family: "lato-regular";
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+#fork span,
+.description h1,
+.per-month,
+#pricing h2,
+.price {
+	text-transform: uppercase;	
+}
+#fork span,
+h2,
+#news .new h3,
+.author span,
+#workers .container span,
+#people .row div {
+	font-size: 1.6rem;
+}
+#fork h1,
+.twitter,
+.facebook,
+#people h1,
+#pricing h1,
+#people .row div,
+.per-month,
+#pricing h2 {
+	color: white;
+}
+#fork h1 {
+	font-size: 8.2rem;
+}
+#fork p,
+#get h1,
+.author span,
+#workers .container span,
+#workers p a,
+#news h3,
+#news .link,
+.navigation,
+#get .row > h2  {
+	color: #8d81ac;
+}
+/*/================================#COMUNITIES==========================/*/
+#communities .button {
+	position: relative;
+    z-index: 1;
+    width: 34%;
+    padding: 21px 65px;
+    margin: 0 auto;
+    top: -32px;
+    font-size: 2.1rem;
+	line-height: 2rem;
+	border-radius: 50px;
+}
+#communities {
+	text-align: center;
+}
+#communities .fa {
+	padding-right: 10px;
+}
+.description {
+	padding: 60px 0;
+}
+.description h1 {
+	font-size: 5.4rem;
+	line-height: 2rem;
+	margin-bottom: 35px;
+}
+.description p {
+	width: 75%;
+	margin: 0 auto 45px;
+	color: #323232;
+	font-family: "source_sans_pro-regular";
+	font-size: 2.1rem;
+	line-height: 3.2rem;
+}
+dl dt,
+dl dd,
+#workers ul li,
+.author,
+.portfolio img,
+nav ul li,
+form ul li {
+	display: inline-block;
+}
+dl dt,
+dl dd {
+	border: 1px solid #ddd;
+	padding: 5px 10px;
+	color: black;
+}
+dl dt {
+	border-radius: 2px 0 0 2px;
+	background: -moz-linear-gradient(top, #fcfcfc 49%, #eeeeef 100%, #f4f4f4 21%, #f7f7f7 85%);
+    background: -webkit-linear-gradient(top, #fcfcfc 49%, #eeeeef 100%, #f4f4f4 21%, #f7f7f7 85%);
+    background: -o-linear-gradient(top, #fcfcfc 49%, #eeeeef 100%, #f4f4f4 21%, #f7f7f7 85%);
+    background: -ms-linear-gradient(top, #fcfcfc 49%, #eeeeef 100%, #f4f4f4 21%, #f7f7f7 85%);
+}
+dl dd {
+	border-left: none;
+	border-radius: 0 2px 2px 0;
+	margin-right: 10px;
+}
+/*/=================================#GET===============================/*/
+#get article,
+.articles {
+	overflow: hidden;
+}
+#get .content,
+#subscribe {
+	background-color: #f4f4f4;
+}
+#get {
+	position: relative;
+	padding: 65px 0 50px;
+	overflow: hidden;
+}
+#get .content {
+	padding-top: 100px;
+}
+#get .row > h2 {
+	display: none;
+}
+.get-it {
+	position: absolute;
+	width: 705px;
+	height: 580px;
+	top: 140px;
+    box-shadow: 0 0 25px rgba(0, 5, 5, 0.3);
+    border-radius: 6px;
+}
+.articles {
+	padding: 0 50px 32px 0;
+}
+.img-holder {
+	float: left;
+	width: 20%;
+	margin: 7px 45px 0 0;
+}
+#get h1,
+#get .row > h2 {
+	font-size: 4.8rem;
+	line-height: 2rem;
+}
+/*/===============================#WORKERS==============================/*/
+#workers {
+	text-align: center;
+	font-size: 2rem;
+	line-height: 3.2rem;
+	color: #333;
+}
+.portfolio img {
+    border-radius: 50%;
+    margin-right: 24px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.author {
+    vertical-align: middle;
+    overflow: hidden;
+    text-align: left;
+}
+.author h1 {
+	font-size: 2.4rem;
+	line-height: 3.2rem;
+}
+h2,
+#news .new h3,
+.author span,
+#workers .container span {
+	font-size: 1.6rem;
+	line-height: 3.2rem;
+	color: #323232;
+	margin-bottom: 15px;
+}
+#workers p a, 
+#workers p {
+	width: 74%;
+	margin: 45px auto 20px;
+}
+#workers ul li span {
+	display: block;
+	margin-top: 15px;
+}
+#workers ul {
+	margin-top: 100px;
+}
+#workers ul li {
+	margin: 0 22px;
+	width: 21%;
+	font-size: 2.1rem;
+}
+#workers ul li a {
+	padding: 10px 20px;
+	display: block;
+	position: relative;
+}
+#workers ul li i {
+	float: left;
+	padding: 5px 0;
+	display: block;
+	position: absolute;
+}
+.github {
+	color: black;
+	background: #f3f3f3;
+}
+.twitter {
+	background: #26a6d1;
+}
+.facebook {
+	background: #3b5998;
+}
+#news .link,
+.github,
+.twitter,
+.facebook {
+	border-radius: 4px;
+}
+/*/===============================#PEOPLE===============================/*/
+#people {
+	background: #4a3b4e url(../images/about-fork.png) no-repeat 50% 100%;
+	background-size: cover;
+	position: relative;
+}
+#people h1,
+#pricing h1 {
+	font-size: 4.8rem;
+	line-height: 2rem;
+	text-align: center;
+}
+#people a {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+#people h2 img {
+	vertical-align: middle;
+}
+#people .row div {
+	margin-top: 80px;
+	font-family: "source_sans_pro-italic";
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	padding: 0 30px;
+	text-align: center;
+	color: white;
+}
+	#people .row  img {
+		max-width: 100%;
+	}
+/*/===============================#PRICING===============================/*/
+#pricing {
+	background: #4a3b4e url(../images/pricing.png) no-repeat 50% 0%;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+#pricing  .container .row div {
+	float: left;
+	background-color: rgba(255, 255, 255, 0.11);
+	width: 22%;
+	padding: 0 0 35px;
+}
+#pricing  .container .row div:hover,
+#pricing  .container .row div,
+#pricing  .container .row div:hover .price {
+	transition: 0.5s;
+}
+#pricing  .container .row div:hover {
+	transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.16);
+    margin-left: 10px;
+    margin-right: 23px;
+}
+#pricing  .container .row div:hover .price {
+	font-size: 8.2rem;
+}
+.per-month {
+	opacity: 0.3;
+	line-height: 9rem;
+}
+#pricing  .container .row {
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-bottom: 6vh;
+}
+#pricing  .container .row div span {
+	display: block;
+}
+#pricing p {
+	opacity: 0.8;
+	color: #a291a5;
+	line-height: 2.1rem;
+}
+.deals {
+	min-height: 100px;
+	position: relative;
+    min-height: 50px;
+    padding-top: 3rem;
+    margin-bottom: 5rem;
+}
+.deals:before {
+	content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 60px;
+    margin: 0 0 0 -30px;
+    height: 5px;
+}
+#pricing h1 {
+	margin-bottom: 55px;
+}
+#pricing h2 {
+	font-size: 2.4rem;
+	line-height: 2rem;
+	background-color: rgba(255, 255, 255, 0.06);
+	padding: 35px 0;
+}
+.price {
+	font-size: 6rem;
+	line-height: 9rem;
+}
+/*/==============================#SUBSCRIBE==============================/*/
+#subscribe {
+	padding: 40px 0;
+}
+form ul li {
+	box-sizing: border-box;
+}
+form ul li:first-child {
+	width: 70%;
+	margin-right: 4%;
+}
+input,
+button {
+	border: none;
+}
+input {
+	padding: 14px 0 14px ;
+	box-sizing: border-box;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 28px;
+    padding: 14px 0 14px 28px;
+    color: #333333;
+}
+#subscribe p {
+	line-height: 4.4rem;
+}
+::-webkit-input-placeholder,
+::-moz-input-placeholder {
+	color: #c8cbcf;
+	line-height: 1.7rem;
+}
+.none {
+	display: none
+}
+/*/================================#NEWS=================================/*/
+#news {
+	padding: 70px 0 88px;
+}
+#news div span {
+	display: block;
+}
+#news div h2 {
+	margin-bottom: 50px;
+	color: #d3d1da;
+	font-size: 2.8rem;
+	line-height: 3.2rem;
+}
+#news div p {
+	margin: 20px 0 25px;
+}
+.blog span {
+	margin: 10px 0 20px;
+	font-size: 1.3rem;
+	line-height: 2.1rem;
+}
+#news h3{
+	line-height: 2.6rem;
+}
+#news .link {
+
+	line-height: 2.6rem;
+	background-color: #f4f4f4;
+	padding: 10px 20px;
+}
+/*/===============================FOOTER=================================/*/
+.number {
+	color: #3f3f3f;
+	line-height: 2.8rem;
+	display: block;
+	margin-bottom: 10px;
+}
+footer .container :nth-child(3) h2 {
+	margin-top: 20px;
+}
