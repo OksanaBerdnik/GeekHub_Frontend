@@ -1,0 +1,362 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Atom</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="images/atom.png" type="image/png">
+		<link href="../css/reset.css" rel="stylesheet" type="text/css">
+		<link href="css/grid.css" rel="stylesheet" type="text/css">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href="css/media.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<script
+			src="http://maps.googleapis.com/maps/api/js">
+		</script>
+		<script>
+			var myCenter=new google.maps.LatLng(51.488268, -0.094761);
+
+			function initialize()
+			{
+			var mapProp = {
+			  center:myCenter,
+			  zoom:15,
+			  mapTypeId:google.maps.MapTypeId.ROADMAP
+			  };
+
+			var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+			var marker=new google.maps.Marker({
+			  position:myCenter,
+			  });
+
+			marker.setMap(map);
+			}
+
+			google.maps.event.addDomListener(window, 'load', initialize);
+		</script>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="nav">
+					<nav>
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Pricing</a></li>
+							<li><a href="#">Features</a></li>
+							<li><a href="#">Products</a></li>
+							<li><a href="#">Testimonials</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</nav>
+					<a href="#" class="logo">
+						<img src="images/logo.png" alt="atom">
+					</a>
+				</div>
+				<div class="header">
+					<h1>We design & develop qaulity products to help small & medium level business.</h1>
+					<p>Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpa</p>
+				</div>
+			</div>
+		</header>
+		<section id="communities">
+			<div class="container">
+				<ul>
+					<li><a href="#"><img src="images/dribbble.png" alt="dribbble"></a></li>
+					<li><a href="#"><img src="images/pinterest.png" alt="pinterest"></a></li>
+					<li><a href="#"><img src="images/instagram.png" alt="instagram"></a></li>
+					<li><a href="#"><img src="images/google.png" alt="google"></a></li>
+					<li><a href="#"><img src="images/wordpress.png" alt="wordpress"></a></li>
+				</ul>
+			</div>
+		</section>
+		<section id="about">
+			<div class="container">
+				<div class="description">
+					<img src="images/atom.png" alt="atom"> 
+					<article>
+						<h1>What is Special About Atom App</h1>
+						<p>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum.</p>
+					</article>
+				</div>
+				<div class="row">
+					<div class="deals xs-col-12 xs-col-6 m-col-4">
+						<i class="fa fa-thumbs-o-up"></i>
+						<article>
+							<h2><a href="#">Built with Bootstrap 3.0</a></h2>
+							<p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.</p>
+						</article>
+					</div>
+					<div class="deals xs-col-12 xs-col-6 m-col-4">
+						<i class="fa fa-stack-exchange"></i>
+						<article>
+							<h2><a href="#">Built with Bootstrap 3.0</a></h2>
+							<p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.</p>
+						</article>
+					</div>
+					<div class="deals xs-col-12 xs-col-6 m-col-4">
+						<i class="fa fa-indent"></i>
+						<article>
+							<h2><a href="#">Built with Bootstrap 3.0</a></h2>
+							<p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.</p>
+						</article>
+					</div>
+					<div class="deals xs-col-12 xs-col-6 m-col-4">
+						<i class="fa fa-flag-checkered"></i>
+						<article>
+							<h2><a href="#">Built with Bootstrap 3.0</a></h2>
+							<p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.</p>
+						</article>
+					</div>
+					<div class="deals xs-col-12 xs-col-6 m-col-4">
+						<i class="fa fa-asterisk"></i>
+						<article>
+							<h2><a href="#">Built with Bootstrap 3.0</a></h2>
+							<p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.</p>
+						</article>
+					</div>
+					<div class="deals xs-col-12 xs-col-6 m-col-4">
+						<i class="fa fa-bookmark-o"></i>
+						<article>
+							<h2><a href="#">Built with Bootstrap 3.0</a></h2>
+							<p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.</p>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="statistics">
+			<div class="container">
+				<div class="row">
+					<div class="statistics xs-col-12 xs-col-6 s-col-3">
+						<i class="fa fa-thumbs-o-up"></i>
+						<span class="purpose">In Business</span>
+						<span>2006</span>
+					</div>
+					<div class="statistics xs-col-12 xs-col-6 s-col-3">
+						<i class="fa fa-comments"></i>
+						<span class="purpose">Clients Served</span>
+						<span>240</span>
+					</div>
+					<div class="statistics xs-col-12 xs-col-6 s-col-3">
+						<i class="fa fa-smile-o"></i>
+						<span class="purpose">Clients Served</span>
+						<span>120</span>
+					</div>
+					<div class="statistics xs-col-12 xs-col-6 s-col-3">
+						<i class="fa fa-bookmark-o"></i>
+						<span class="purpose">Awards Won</span>
+						<span>10</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="work">
+			<div class="container">
+				<div class="description">
+					<img src="images/work.png" alt="work">
+					<article>
+						<h1>What is Special About Atom App</h1>
+						<p>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum.</p>
+					</article>
+				</div>
+				<div class="row">
+					<ul class="filter">
+						<li><a href="#">All</a></li>
+						<li><a href="#">Identity</a></li>
+						<li><a href="#">Graphic</a></li>
+						<li><a href="#">Web</a></li>
+					</ul>
+					<div class="deals-list xs-col-12 xs-col-6 m-col-4">
+						<img src="images/web-page.jpg" alt="web-page">
+						<div class="link">
+							<span>Processing Steps</span>
+							<span>Web</span>
+						</div>
+					</div>
+					<div class="deals-list xs-col-12 xs-col-6 m-col-4">
+						<img src="images/sign-in.jpg" alt="sign-in">
+						<div class="link">
+							<span>Processing Steps</span>
+							<span>Web</span>
+						</div>
+					</div>
+					<div class="deals-list xs-col-12 xs-col-6 m-col-4">
+						<img src="images/diagram.jpg" alt="diagram">
+						<div class="link">
+							<span>Processing Steps</span>
+							<span>Web</span>
+						</div>
+					</div>
+					<div class="deals-list xs-col-12 xs-col-6 m-col-4">
+						<img src="images/responsive.jpg" alt="responsive">
+						<div class="link">
+							<span>Processing Steps</span>
+							<span>Web</span>
+						</div>
+					</div>
+					<div class="deals-list xs-col-12 xs-col-6 m-col-4">
+						<img src="images/search.jpg" alt="search">
+						<div class="link">
+							<span>Processing Steps</span>
+							<span>Web</span>
+						</div>
+					</div>
+					<div class="deals-list xs-col-12 xs-col-6 m-col-4">
+						<img src="images/ribbon.jpg" alt="ribbon">
+						<div class="link">
+							<span>Processing Steps</span>
+							<span>Web</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="offer">
+			<div class="container">
+				<div class="description">
+					<img src="images/deals.png" alt="deals">
+					<article>
+						<h1>What is Special About Atom App</h1>
+						<p>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum.</p>
+					</article>
+				</div>
+				<div class="row">
+					<div class="xs-col-12 m-col-4">
+						<h2>Basic</h2>
+						<span><i class="fa fa-usd"></i>25<span>/month</span></span>
+						<ul>
+							<li>60 Users</li>
+							<li>Unlimited Forums</li>
+							<li>Unlimited Reports</li>
+							<li>3,000 Entries per Month</li>
+							<li>200 MB Storage</li>
+						</ul>
+						<a href="#">Sign up</a>
+					</div>
+					<div class="xs-col-12 m-col-4">
+						<h2>Basic</h2>
+						<span><i class="fa fa-usd"></i>25<span>/month</span></span>
+						<ul>
+							<li>60 Users</li>
+							<li>Unlimited Forums</li>
+							<li>Unlimited Reports</li>
+							<li>3,000 Entries per Month</li>
+							<li>200 MB Storage</li>
+						</ul>
+						<a href="#">Sign up</a>
+					</div>
+					<div class="xs-col-12 m-col-4">
+						<h2>Basic</h2>
+						<span><i class="fa fa-usd"></i>25<span>/month</span></span>
+						<ul>
+							<li>60 Users</li>
+							<li>Unlimited Forums</li>
+							<li>Unlimited Reports</li>
+							<li>3,000 Entries per Month</li>
+							<li>200 MB Storage</li>
+						</ul>
+						<a href="#">Sign up</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="feedbacks">
+			<div class="container">
+				<div class="description">
+					<img src="images/hangout.png" alt="hangout">
+					<article>
+						<h1>What is Special About Atom App</h1>
+						<p>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum.</p>
+					</article>
+				</div>
+				<div class="row">
+					<div class="xs-col-12 m-col-4">
+						<div class="feedback">
+							<p><a href="#">@atom</a> I love this #app. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet nulla sem fringilla, purus enim amet, nascetur faucibus, adipiscing neque ut bibendum, at felis nec in. Mauris ultricies, et pede id potenti in nec, mi elit rhoncus ligula, mollis lacus congue scelerisque magna.</p>
+							<img src="images/john.jpg" alt="john">
+							<div class="author">
+								<h2>John Doe</h2>
+								<span>Manchester, UK</span>
+							</div>
+						</div>
+					</div>
+					<div class="xs-col-12 m-col-4">
+						<div class="feedback">
+							<p><a href="#">@atom</a> I love this #app. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet nulla sem fringilla, purus enim amet, nascetur faucibus, adipiscing neque ut bibendum, at felis nec in. Mauris ultricies, et pede id potenti in nec, mi elit rhoncus ligula, mollis lacus congue scelerisque magna.</p>
+							<img src="images/christina.jpg" alt="christina">
+							<div class="author">
+								<h2>Christine Heal</h2>
+								<span>Bristol, UK</span>
+							</div>
+						</div>
+					</div>
+					<div class="xs-col-12 m-col-4">
+						<div class="feedback">
+							<p><a href="#">@atom</a> I love this #app. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet nulla sem fringilla, purus enim amet, nascetur faucibus, adipiscing neque ut bibendum, at felis nec in. Mauris ultricies, et pede id potenti in nec, mi elit rhoncus ligula, mollis lacus congue scelerisque magna.</p>
+							<img src="images/abraham.jpg" alt="abraham">
+							<div class="author">
+								<h2>Abraham Doe</h2>
+								<span>Bristol, UK</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="subscribtion">
+			<div class="container">
+				<a href="#" class="m-col-4">create a free account</a>
+				<p class="m-col-8">Say goodbye to Net 60. Try App for free.</p>
+			</div>
+		</section>
+		<section id="email">
+			<div class="container">
+				<div class="description">
+					<img src="images/mail.png" alt="mail">
+					<article>
+						<h1>What is Special About Atom App</h1>
+						<p>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum.</p>
+					</article>
+				</div>
+				<form action="#" method="POST">
+					<div>
+						<input type="text" name="name" placeholder="Your Name">
+					</div>
+					<div>
+						<input type="email" name="email" placeholder="Your Email">
+					</div>
+					<div>
+						<textarea name="comment" rows="6" placeholder="Your Message"></textarea>
+					</div>
+					<div>
+						<button name="submit">send message</button>
+					</div>
+				</form>
+			</div>
+		</section>
+		<section class="googleMap">
+			<div id="googleMap"></div>
+			<p class="location">Manchester, E13 8 London, UK</span>
+			</p>
+		</section>
+		<footer>
+			<div class="container">
+				<span>©2014 <a href="#">Atom.</a>  All Rights Reserved</span>
+				<ul>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Terms</a></li>
+					<li><a href="#">Privacy</a></li>
+				</ul>
+				<ul>
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+					<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+</html>
