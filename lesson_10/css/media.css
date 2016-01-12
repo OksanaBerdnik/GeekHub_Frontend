@@ -1,0 +1,23 @@
+@media (min-width: 960px) {
+  .container {
+    max-width: 940px;
+  }
+}
+@media screen and (min-width: 480px) {
+	.xs-col-6 {
+		width: 50%;
+		float: left;
+	}
+}
+@media screen and (min-width: 960px) {
+    .s-col-3 {
+		width: 25%;
+		float: left;
+	}
+}
+@media screen and (min-width: 960px) {
+    .s-col-2 {
+		width: 16.6666666666666%;
+		float: left;
+	}
+}
