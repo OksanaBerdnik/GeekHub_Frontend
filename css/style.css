@@ -17,15 +17,18 @@ h1 {
 	font-size: 17pt;
 	color: black;
 	font-weight: bold;
+	
+	margin: 0 auto;
 }
 a {
 	display: inline-block;
-	padding: 10px 60px;
+	padding: 10px 0px;
 	color: black;
 	border: 2px ridge black;
 	border-radius: 5px;
 	margin: 15px 0 0 0;
 	text-decoration: none;
+	width: 300px;
 }
 a:hover {
 	background: #FF6347;
