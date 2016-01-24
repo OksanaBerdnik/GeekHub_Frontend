@@ -1,0 +1,95 @@
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    size: inherit;
+    padding: inherit;
+}
+body {
+    font-size: 1.6rem;
+    color: #999;
+    font-family: "lato";
+}
+.container {
+    max-width: 980px;
+}
+h1 {
+    font-weight: 900;
+    color: #333;
+    font-size: 2.6rem;
+}
+.header,
+.description {
+    text-align: center;
+}
+ul li {
+    display: inline-block;
+}
+* section {
+    padding: 90px 0 130px;
+}
+/*===============================HEADER============================*/
+header {
+    background: url(../images/header-bg.jpg) no-repeat 50% 100%;
+    background-size: cover;
+    color: white;
+    padding: 18px 0 70px;
+}
+nav ul li a {
+    padding: 0px 11px;
+}/*
+nav ul li:hover {
+    padding: 0 7px;
+}*/
+nav ul li a:hover {
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 12px 10px;
+}
+nav {
+    float: right;
+    margin-top: 20px;
+}
+header h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 3.4rem;
+    margin-bottom: 20px;
+}
+.header {
+    padding: 100px 0 200px;
+    max-width: 70%;
+    margin: 0 auto;
+}
+.header p {
+    font-size: 2.2rem;
+    line-height: 3rem;
+}
+.slider {
+    position: relative;
+    left: 50%;
+    margin-left: -47px;
+}
+/*============================#COMMUNITIES==========================*/
+#communities {
+    background: #f0f0f0;
+    padding: 50px 0 45px;
+}
+#communities img {
+    vertical-align: middle;
+}
+#communities ul{
+    display: flex;
+    justify-content: space-between;
+}
+/*===============================#ABOUT=============================*/
+.description article {
+    margin: 54px 0 95px;
+}
+.description {
+    max-width: 56.5%;
+    margin: 0 auto;
+}

@@ -1,0 +1,737 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Ethanol</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="images/ethanol.png" type="image/png">
+		<link href="../css/reset.css" rel="stylesheet" type="text/css">
+		<link href="css/grid.css" rel="stylesheet" type="text/css">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href="css/media.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<script
+			src="http://maps.googleapis.com/maps/api/js">
+		</script>
+		<script>
+			var myCenter=new google.maps.LatLng(51.522614, 0.031132);
+
+			function initialize()
+			{
+			var mapProp = {
+			  center:myCenter,
+			  zoom:16,
+			  mapTypeId:google.maps.MapTypeId.ROADMAP
+			  };
+
+			var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+			var marker=new google.maps.Marker({
+			position:myCenter,
+			icon:'images/pointer.png'
+			});
+
+			marker.setMap(map);
+			}
+
+			google.maps.event.addDomListener(window, 'load', initialize);
+		</script>
+	</head>
+	<body>
+		<header>
+			<div class="container">		
+				<div class="nav">
+					<nav>
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Products</a></li>
+							<li><a href="#">Testimonials</a></li>
+							<li><a href="#">Pricing</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</nav>
+					<a href="#"><img src="images/logo.png" alt="logo"></a>
+				</div>
+			</div>
+			<div class="header">
+				<h1>website / branding / interactive</h1>
+				<p>We create beautiful, innovative and  effective handcrafted brands & website.</p>
+				<a href="#">view our work</a>
+			</div>
+		</header>
+		<section id="about">
+			<div class="container">
+				<img src="images/logo1.png" alt="logo">
+				<p><span>ethanol</span> is a clean and simple website designed layout for multi-purpose options, you can use this free psd for your works.</p>
+			</div>
+		</section>
+		<section class="what-we-do">
+			<div class="description">
+				<h1>what we do with <span>love</span></h1>
+				<p>We design and build functional and beautiful websites</p>
+			</div>
+			<div class="content">
+				<div class="container">
+					<div class="row">
+						<div class="activity xs-col-6 xs-col-12">
+							<img src="images/brand.png" alt="brand">
+							<article>
+								<h2>Brand Identity</h2>
+								<p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.</p>
+							</article>
+						</div>
+						<div class="activity xs-col-12 xs-col-6">
+							<img src="images/ui.png" alt="ui">
+							<article>
+								<h2>UI/UX Design</h2>
+								<p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.</p>
+							</article>
+						</div>
+						<div class="activity xs-col-12 xs-col-6">
+							<img src="images/design.png" alt="design">
+							<article>
+								<h2>Graphic Design</h2>
+								<p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.</p>
+							</article>
+						</div>
+						<div class="activity xs-col-12 xs-col-6">
+							<img src="images/code.png" alt="code">
+							<article>
+								<h2>Mobile Application</h2>
+								<p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.</p>
+							</article>
+						</div>
+						<div class="activity xs-col-12 xs-col-6">
+							<img src="images/illustration.png" alt="illustration">
+							<article>
+								<h2>Illustration</h2>
+								<p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.</p>
+							</article>
+						</div>
+						<div class="activity xs-col-12 xs-col-6">
+							<img src="images/video.png" alt="video">
+							<article>
+								<h2>Videography</h2>
+								<p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.</p>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="worker">
+			<div class="description">
+				<h1>want to know us <span>better</span></h1>
+				<p>We design and build functional and beautiful websites</p>
+			</div>
+			<div class="content">
+				<div class="container">	
+					<div class="row">
+						<div class="passion xs-col-12">	
+							<div class="holder">
+								<ul>
+									<li><a href="#" class="fa fa-facebook"></a></li>
+									<li><a href="#" class="fa fa-twitter"></a></li>
+									<li><a href="#" class="fa fa-linkedin"></a></li>
+								</ul>
+							</div>
+							<p>Developing <span>Amazing Things</span> with Passion since 2012.</p>
+						</div>
+						<div class="profesional xs-col-12">
+							<h2>Profesional Profile</h2>
+							<p>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec, tempor cursus vitae sit aliquet neque purus. Ultrices lacus proin conubia dictum tempus, tempor pede vitae faucibus, sem auctor, molestie diam dictum aliquam. Dolor leo, ridiculus est ut cubilia nec, fermentum arcu praesent.</p>
+							<div class="chart">
+								<div>
+								    <span>UX/UX</span>
+								    <div class="pipe"><div></div></div>
+							   	</div>
+							   	<div>
+								    <span>HTML / CSS3 / SASS</span>
+								    <div class="pipe"><div></div></div>
+								</div>
+								<div>
+								    <span>Javascript</span>
+								    <div class="pipe"><div></div></div>
+								</div>
+								<div>
+								    <span>Wordpress</span>						    
+								    <div class="pipe"><div></div></div>
+								</div>
+								<div>
+								    <span>Php</span>						    
+								    <div class="pipe"><div></div></div>
+								</div>
+							</div>
+						</div>
+						<div class="statistic">	
+							<div class="deals xs-col-6 xs-col-12 s-col-3">
+								<i class="fa fa-thumbs-o-up"></i>
+								<span>1,236</span>
+								<span>Projects Completed</span>
+							</div>
+							<div class="deals xs-col-6 xs-col-12 s-col-3">
+								<i class="fa fa-users"></i>
+								<span>1,236</span>
+								<span>Happy Clients</span>
+							</div>
+							<div class="deals xs-col-6 xs-col-12 s-col-3">
+								<i class="fa fa-envelope"></i>
+								<span>56,236</span>
+								<span>Mail Conversation</span>
+							</div>
+							<div class="deals xs-col-6 xs-col-12 s-col-3">
+								<i class="fa fa-file-image-o"></i>
+								<span>2,519</span>
+								<span>Photos Taken</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="team">
+			<div class="description">
+				<h1>this is our great <span>team</span></h1>
+				<p>The right people in the right job</p>
+			</div>
+			<div class="content">
+				<div class="container">
+					<div class="row">
+						<div class="xs-col-12 m-col-4">
+							<img src="images/shara.jpg" alt="shara">
+							<p>Imperdiet nulla sem fringilla, purus enim amet, nascetur faucibus, adipiscing neque ut bibendum, at felis nec in.</p>
+							<div>
+								<h2>Maria Shara</h2>
+								<span>founder  - developer</span>
+								<ul>
+									<li><a href="#" class="fa fa-facebook"></a></li>
+									<li><a href="#" class="fa fa-twitter"></a></li>
+									<li><a href="#" class="fa fa-linkedin"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="xs-col-12 m-col-4">
+							<img src="images/doe.jpg" alt="shara">
+							<p>Imperdiet nulla sem fringilla, purus enim amet, nascetur faucibus, adipiscing neque ut bibendum, at felis nec in.</p>
+							<div>
+								<h2>Joanna Doe</h2>
+								<span>founder  - Designer</span>
+								<ul>
+									<li><a href="#" class="fa fa-facebook"></a></li>
+									<li><a href="#" class="fa fa-twitter"></a></li>
+									<li><a href="#" class="fa fa-linkedin"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="xs-col-12 m-col-4">
+							<img src="images/shara.jpg" alt="shara">
+							<p>Imperdiet nulla sem fringilla, purus enim amet, nascetur faucibus, adipiscing neque ut bibendum, at felis nec in.</p>
+							<div>
+								<h2>Serena William</h2>
+								<span>mobile apps developer</span>
+								<ul>
+									<li><a href="#" class="fa fa-facebook"></a></li>
+									<li><a href="#" class="fa fa-twitter"></a></li>
+									<li><a href="#" class="fa fa-linkedin"></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="communication">
+			<div class="description">
+				<h1>welcome we are <span>ethanol</span></h1>
+				<p>We design and build functional and beautiful websites</p>
+			</div>
+			<div class="content">
+				<div class="container">
+					<div class="row">
+						<ul class="purpose">
+							<li>
+								<i class="fa fa-desktop"></i>
+								<div>
+									<h3>internet communication</h3>
+									<span>sub title here</span>
+								</div>
+							</li>
+							<li>
+								<i class="fa fa-pencil"></i>
+								<div>
+									<h3>branding & development</h3>
+									<span>sub title here</span>
+								</div>
+							</li>
+							<li>
+								<i class="fa fa-video-camera"></i>
+								<div>
+									<h3>motion graphic</h3>
+									<span>sub title here</span>
+								</div>
+							</li>
+							<li>
+								<i class="fa fa-mobile"></i>
+								<div>
+									<h3>mobile application</h3>
+									<span>sub title here</span>
+								</div>
+							</li>
+							<li>
+								<i class="fa fa-university"></i>
+								<div>
+									<h3>clean company analisis</h3>
+									<span>sub title here</span>
+								</div>
+							</li>
+						</ul>
+						<article>
+							<h2>Internet communication</h2>
+							<p>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec, tempor cursus vitae sit aliquet neque purus. Ultrices lacus proin conubia dictum tempus, tempor pede vitae faucibus, sem auctor, molestie diam dictum aliquam. Dolor leo, ridiculus est ut cubilia nec, fermentum arcu praesent.</p>
+							<img src="images/devices.png" alt="devices">
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="photo">
+			<div class="description">
+				<h1>our work is <span>incredible</span></h1>
+				<p>We design and build functional and beautiful websites</p>
+			</div>
+			<ul class="filter">
+				<li><a href="#">All</a></li>
+				<li><a href="#">Website</a></li>
+				<li><a href="#">Graphic</a></li>
+				<li><a href="#">Identity</a></li>
+				<li><a href="#">Mobile Apps</a></li>
+			</ul>
+			<div class="row">
+				<div class="xs-col-6 xs-col-12 s-col-2 s-col-3">
+					<img src="images/1.jpg" alt="article">
+					<div class="link">
+						<ul>
+							<li><a href="#" class="fa fa-link"></a></li>
+							<li><a href="#" class="fa fa-share"></a></li>
+						</ul>
+						<h2><a href="#">Flat Mockup</a></h2>
+						<span>Identity</span>	
+					</div>
+				</div>
+				<div class="xs-col-6 xs-col-12 s-col-2 s-col-3">
+					<img src="images/2.jpg" alt="article">
+					<div class="link">
+						<ul>
+							<li><a href="#" class="fa fa-link"></a></li>
+							<li><a href="#" class="fa fa-share"></a></li>
+						</ul>
+						<h2><a href="#">Flat Mockup</a></h2>
+						<span>Identity</span>	
+					</div>
+				</div>
+				<div class="xs-col-6 xs-col-12 s-col-2 s-col-3">
+					<img src="images/3.jpg" alt="article">
+					<div class="link">
+						<ul>
+							<li><a href="#" class="fa fa-link"></a></li>
+							<li><a href="#" class="fa fa-share"></a></li>
+						</ul>
+						<h2><a href="#">Flat Mockup</a></h2>
+						<span>Identity</span>	
+					</div>
+				</div>
+				<div class="xs-col-6 xs-col-12 s-col-2 s-col-3">
+					<img src="images/4.jpg" alt="article">
+					<div class="link">
+						<ul>
+							<li><a href="#" class="fa fa-link"></a></li>
+							<li><a href="#" class="fa fa-share"></a></li>
+						</ul>
+						<h2><a href="#">Flat Mockup</a></h2>
+						<span>Identity</span>	
+					</div>
+				</div>
+				<div class="xs-col-6 xs-col-12 s-col-2 s-col-3">
+					<img src="images/5.jpg" alt="article">
+					<div class="link">
+						<ul>
+							<li><a href="#" class="fa fa-link"></a></li>
+							<li><a href="#" class="fa fa-share"></a></li>
+						</ul>
+						<h2><a href="#">Flat Mockup</a></h2>
+						<span>Identity</span>	
+					</div>
+				</div>
+				<div class="xs-col-6 xs-col-12 s-col-2 s-col-3">
+					<img src="images/6.jpg" alt="article">
+					<div class="link">
+						<ul>
+							<li><a href="#" class="fa fa-link"></a></li>
+							<li><a href="#" class="fa fa-share"></a></li>
+						</ul>
+						<h2><a href="#">Flat Mockup</a></h2>
+						<span>Identity</span>	
+					</div>
+				</div>
+				<div class="xs-col-6 xs-col-12 s-col-2 s-col-3">
+					<img src="images/7.jpg" alt="article">
+					<div class="link">
+						<ul>
+							<li><a href="#" class="fa fa-link"></a></li>
+							<li><a href="#" class="fa fa-share"></a></li>
+						</ul>
+						<h2><a href="#">Flat Mockup</a></h2>
+						<span>Identity</span>	
+					</div>
+				</div>
+				<div class="xs-col-6 xs-col-12 s-col-2 s-col-3">
+					<img src="images/8.jpg" alt="article">
+					<div class="link">
+						<ul>
+							<li><a href="#" class="fa fa-link"></a></li>
+							<li><a href="#" class="fa fa-share"></a></li>
+						</ul>
+						<h2><a href="#">Flat Mockup</a></h2>
+						<span>Identity</span>	
+					</div>
+				</div>
+				<div class="xs-col-6 xs-col-12 s-col-2 s-col-3">
+					<img src="images/9.jpg" alt="article">
+					<div class="link">
+						<ul>
+							<li><a href="#" class="fa fa-link"></a></li>
+							<li><a href="#" class="fa fa-share"></a></li>
+						</ul>
+						<h2><a href="#">Flat Mockup</a></h2>
+						<span>Identity</span>	
+					</div>
+				</div>
+				<div class="xs-col-6 xs-col-12 s-col-2 s-col-3">
+					<img src="images/10.jpg" alt="article">
+					<div class="link">
+						<ul>
+							<li><a href="#" class="fa fa-link"></a></li>
+							<li><a href="#" class="fa fa-share"></a></li>
+						</ul>
+						<h2><a href="#">Flat Mockup</a></h2>
+						<span>Identity</span>	
+					</div>
+				</div>
+				<div class="xs-col-6 xs-col-12 s-col-2 s-col-3">
+					<img src="images/11.jpg" alt="article">
+					<div class="link">
+						<ul>
+							<li><a href="#" class="fa fa-link"></a></li>
+							<li><a href="#" class="fa fa-share"></a></li>
+						</ul>
+						<h2><a href="#">Flat Mockup</a></h2>
+						<span>Identity</span>	
+					</div>
+				</div>
+				<div class="xs-col-6 xs-col-12 s-col-2 s-col-3">
+					<img src="images/12.jpg" alt="article">
+					<div class="link">
+						<ul>
+							<li><a href="#" class="fa fa-link"></a></li>
+							<li><a href="#" class="fa fa-share"></a></li>
+						</ul>
+						<h2><a href="#">Flat Mockup</a></h2>
+						<span>Identity</span>	
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="articles">
+			<div class="description">
+				<h1>our best <span>workflow</span></h1>
+				<p>We design and build functional and beautiful websites</p>
+			</div>
+			<div class="content">
+				<div class="container">
+					<div class="row">
+						<div class="categories">
+							<div>
+								<img src="images/research.png" alt="research">
+								<article>
+									<h2>research</h2>
+									<p>Ultrices lacus proin conubia dictum tempus, tempor pede vitae faucibus, sem auctor, molestie diam dictum aliquam. Dolor leo, ridiculus est ut cubilia nec, fermentum arcu praesent, pede etiam. Tempor vestibulum turpis id ligula mi mattis. Eget arcu vitae mauris amet odio.</p>
+								</article>
+							</div>
+							<div>
+								<img src="images/design.png" alt="design">
+								<article>
+									<h2>design & develop</h2>
+									<p>Ultrices lacus proin conubia dictum tempus, tempor pede vitae faucibus, sem auctor, molestie diam dictum aliquam. Dolor leo, ridiculus est ut cubilia nec, fermentum arcu praesent, pede etiam. Tempor vestibulum turpis id ligula mi mattis. Eget arcu vitae mauris amet odio.</p>
+								</article>
+							</div>
+							<div>
+								<img src="images/refine.png" alt="refine">
+								<article>
+									<h2>refine</h2>
+									<p>Ultrices lacus proin conubia dictum tempus, tempor pede vitae faucibus, sem auctor, molestie diam dictum aliquam. Dolor leo, ridiculus est ut cubilia nec, fermentum arcu praesent, pede etiam. Tempor vestibulum turpis id ligula mi mattis. Eget arcu vitae mauris amet odio.</p>
+								</article>
+							</div>
+							<div>
+								<img src="images/launch.png" alt="launch">
+								<article>
+									<h2>launch</h2>
+									<p>Ultrices lacus proin conubia dictum tempus, tempor pede vitae faucibus, sem auctor, molestie diam dictum aliquam. Dolor leo, ridiculus est ut cubilia nec, fermentum arcu praesent, pede etiam. Tempor vestibulum turpis id ligula mi mattis. Eget arcu vitae mauris amet odio.</p>
+								</article>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="price">
+			<div class="description">
+				<h1>Choose from the best pricing <span>table</span></h1>
+				<p>We design and build functional and beautiful websites</p>
+			</div>
+			<div class="content">
+				<div class="container">
+					<div class="row">
+						<div class="xs-col-12 m-col-4">
+							<h2 class="same">Basic Plan</h2>
+							<div class="price">
+								<span class="cost">25</span>
+								<span class="period">/mo</span>
+							</div>
+							<ul>
+								<li>60 Users</li>
+								<li>Unlimited Forums</li>
+								<li>Unlimited Reports</li>
+								<li>3,000 Entries per Month</li>
+								<li>200 MB Storage</li>
+							</ul>
+							<a href="#" class="same">get started now</a>
+							<span class="trial">30 days free trial</span>
+						</div>
+						<div class="xs-col-12 m-col-4">
+							<h2 class="same">Basic Plan</h2>
+							<div class="price">
+								<span class="cost">25</span>
+								<span class="period">/mo</span>
+							</div>
+							<ul>
+								<li>60 Users</li>
+								<li>Unlimited Forums</li>
+								<li>Unlimited Reports</li>
+								<li>3,000 Entries per Month</li>
+								<li>200 MB Storage</li>
+							</ul>
+							<a href="#" class="same">get started now</a>
+							<span class="trial">30 days free trial</span>
+						</div>
+						<div class="xs-col-12 m-col-4">
+							<h2 class="same">Basic Plan</h2>
+							<div class="price">
+								<span class="cost">25</span>
+								<span class="period">/mo</span>
+							</div>
+							<ul>
+								<li>60 Users</li>
+								<li>Unlimited Forums</li>
+								<li>Unlimited Reports</li>
+								<li>3,000 Entries per Month</li>
+								<li>200 MB Storage</li>
+							</ul>
+							<a href="#" class="same">get started now</a>
+							<span class="trial">30 days free trial</span>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</section>
+		<section id="blog">
+			<div class="description">
+				<h1>latest from the <span>blog</span></h1>
+				<p>We design and build functional and beautiful websites</p>
+			</div>
+			<div class="content">
+				<div class="container">
+					<div class="row">
+						<div class="xs-col-6 xs-col-12">
+							<div class="blog">
+								<div class="article">
+									<img src="images/blog1.jpg" alt="blog">
+									<article>
+										<span>January 24, 2014</span>
+										<h2>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec</h2>
+										<p>Tempor vestibulum turpis id ligula mi mattis. Eget arcu vitae mauris amet odio. Diam nibh diam, quam elit, libero nostra ut. Pellentesque vehicula. Eget sed, dapibus magna nulla nonummy commodo accumsan morbi, praesent volutpat vel id maecenas, morbi habitant sem in adipiscing mi erat, malesuada pretium tortor rutrum eu eros vel. Donec molestie, faucibus a amet commodo scelerisque libero massa. Sapien quam in eu vel nulla.</p>
+									</article>	
+								</div>
+								<div class="footer-blog">
+									<a href="#"><i class="fa fa-heart"></i>40</a>
+									<ul>
+										<li><a href="#">By Jackie Lord</a></li>
+										<li><a href="#">20 Comments</a></li>
+										<li><a href="#">Read More</a></li>
+									</ul>
+								</div> 
+							</div>
+						</div>
+						<div class="xs-col-6 xs-col-12">
+							<div class="blog">
+								<div class="article">
+									<img src="images/blog2.jpg" alt="blog">
+									<article>
+										<span>January 24, 2014</span>
+										<h2>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec</h2>
+										<p>Tempor vestibulum turpis id ligula mi mattis. Eget arcu vitae mauris amet odio. Diam nibh diam, quam elit, libero nostra ut. Pellentesque vehicula. Eget sed, dapibus magna nulla nonummy commodo accumsan morbi, praesent volutpat vel id maecenas, morbi habitant sem in adipiscing mi erat, malesuada pretium tortor rutrum eu eros vel. Donec molestie, faucibus a amet commodo scelerisque libero massa. Sapien quam in eu vel nulla.</p>
+									</article>
+								</div> 
+								<div class="footer-blog">
+									<a href="#"><i class="fa fa-heart"></i>40</a>
+									<ul>
+										<li><a href="#">By Jackie Lord</a></li>
+										<li><a href="#">20 Comments</a></li>
+										<li><a href="#">Read More</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="xs-col-6 xs-col-12">
+							<div class="blog">
+								<div class="article">
+									<img src="images/blog3.jpg" alt="blog">
+									<article>
+										<span>January 24, 2014</span>
+										<h2>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec</h2>
+										<p>Tempor vestibulum turpis id ligula mi mattis. Eget arcu vitae mauris amet odio. Diam nibh diam, quam elit, libero nostra ut. Pellentesque vehicula. Eget sed, dapibus magna nulla nonummy commodo accumsan morbi, praesent volutpat vel id maecenas, morbi habitant sem in adipiscing mi erat, malesuada pretium tortor rutrum eu eros vel. Donec molestie, faucibus a amet commodo scelerisque libero massa. Sapien quam in eu vel nulla.</p>
+									</article>
+								</div> 
+								<div class="footer-blog">
+									<a href="#"><i class="fa fa-heart"></i>40</a>
+									<ul>
+										<li><a href="#">By Jackie Lord</a></li>
+										<li><a href="#">20 Comments</a></li>
+										<li><a href="#">Read More</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="xs-col-6 xs-col-12">
+							<div class="blog">
+								<div class="article">
+									<img src="images/blog4.jpg" alt="blog">
+									<article>
+										<span>January 24, 2014</span>
+										<h2>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec</h2>
+										<p>Tempor vestibulum turpis id ligula mi mattis. Eget arcu vitae mauris amet odio. Diam nibh diam, quam elit, libero nostra ut. Pellentesque vehicula. Eget sed, dapibus magna nulla nonummy commodo accumsan morbi, praesent volutpat vel id maecenas, morbi habitant sem in adipiscing mi erat, malesuada pretium tortor rutrum eu eros vel. Donec molestie, faucibus a amet commodo scelerisque libero massa. Sapien quam in eu vel nulla.</p>
+									</article>
+								</div>
+								<div class="footer-blog">
+									<a href="#"><i class="fa fa-heart"></i>40</a>
+									<ul>
+										<li><a href="#">By Jackie Lord</a></li>
+										<li><a href="#">20 Comments</a></li>
+										<li><a href="#">Read More</a></li>
+									</ul>
+								</div> 
+							</div>
+						</div>
+						<div class="xs-col-6 xs-col-12">
+							<div class="blog">
+								<div class="article">
+									<img src="images/blog5.jpg" alt="blog">
+									<article>
+										<span>January 24, 2014</span>
+										<h2>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec</h2>
+										<p>Tempor vestibulum turpis id ligula mi mattis. Eget arcu vitae mauris amet odio. Diam nibh diam, quam elit, libero nostra ut. Pellentesque vehicula. Eget sed, dapibus magna nulla nonummy commodo accumsan morbi, praesent volutpat vel id maecenas, morbi habitant sem in adipiscing mi erat, malesuada pretium tortor rutrum eu eros vel. Donec molestie, faucibus a amet commodo scelerisque libero massa. Sapien quam in eu vel nulla.</p>
+									</article>
+								</div> 
+								<div class="footer-blog">
+									<a href="#"><i class="fa fa-heart"></i>40</a>
+									<ul>
+										<li><a href="#">By Jackie Lord</a></li>
+										<li><a href="#">20 Comments</a></li>
+										<li><a href="#">Read More</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="xs-col-6 xs-col-12">
+							<div class="blog">
+								<div class="article">
+									<img src="images/blog6.jpg" alt="blog">
+									<article>
+										<span>January 24, 2014</span>
+										<h2>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec</h2>
+										<p>Tempor vestibulum turpis id ligula mi mattis. Eget arcu vitae mauris amet odio. Diam nibh diam, quam elit, libero nostra ut. Pellentesque vehicula. Eget sed, dapibus magna nulla nonummy commodo accumsan morbi, praesent volutpat vel id maecenas, morbi habitant sem in adipiscing mi erat, malesuada pretium tortor rutrum eu eros vel. Donec molestie, faucibus a amet commodo scelerisque libero massa. Sapien quam in eu vel nulla.</p>
+									</article>
+								</div>
+								<div class="footer-blog">
+									<a href="#"><i class="fa fa-heart"></i>40</a>
+									<ul>
+										<li><a href="#">By Jackie Lord</a></li>
+										<li><a href="#">20 Comments</a></li>
+										<li><a href="#">Read More</a></li>
+									</ul>
+								</div> 
+							</div>
+						</div>
+					</div>
+					<a href="#" class="load">Load More</a>
+				</div>
+			</div>
+		</section>
+		<section class="googleMap">
+			<div class="description">
+				<h1>feel free to <span>contact us</span></h1>
+				<p>We design and build functional and beautiful websites</p>
+			</div>
+			<div id="googleMap"></div>
+			<div class="content">
+				<div class="container">
+					<div class="row">
+						<div class="xs-col-12 m-col-4">
+							<img src="images/gps.png" alt="gps">
+							<span>Jl. Pahlawan VII No.247-D Sidoarjo-Surabaya-Indonesia</span>
+						</div>
+						<div class="xs-col-12 m-col-4">
+							<img src="images/mail.png" alt="mail">
+							<span><a href="#">rudhisasmito@gmail.com</a></span>
+						</div>
+						<div class="xs-col-12 m-col-4">
+							<img src="images/phone.png" alt="phone">
+							<span>+613 0000 0000</span>
+						</div>
+						<form>
+							<div class="xs-col-12 m-col-4">
+								<input type="text" name="f_name" placeholder="Name">
+							</div>
+							<div class="xs-col-12 m-col-4">
+								<input type="email" name="email" placeholder="Your Email">
+							</div>
+							<div class="xs-col-12 m-col-4">
+								<input type="text" name="sudject" placeholder="Subject">
+							</div>
+							<div class="textarea xs-col-12">
+								<textarea name="message" placeholder="Message"></textarea>
+							</div>
+							<div>
+								<input type="submit" name="send" value="send message" >
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+				<ul>
+					<li><a href="#" class="fa fa-facebook"></a></li>
+					<li><a href="#" class="fa fa-twitter"></a></li>
+					<li><a href="#" class="fa fa-linkedin"></a></li>
+					<li><a href="#" class="fa fa-pinterest-p"></a></li>
+					<li><a href="#" class="fa fa-google-plus"></a></li>
+					<li><a href="#" class="fa fa-dribbble"></a></li>
+					<li><a href="#" class="fa fa-linkedin"></a></li>
+				</ul>
+				<p>© 2015 ethanol. All rights reserved. Theme by <a href="#">Rudhi Sasmito.</a></p>
+			</div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,6 @@
+@media screen and (min-width: 480px) and (max-width: 979px) {
+	.xs-col-6 {
+		width: 50%;
+		float: left;
+	}
+}
